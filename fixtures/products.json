@@ -1,0 +1,535 @@
+[
+    {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "ri001",
+            "name": "Annam  1Kg Idly Rice",
+            "description": "A delicious rice item.",
+            "price": 100.0,
+            "category": 1,
+            "rating": 4.5,
+            "image": "rice/Annam_ 1kg Idly Rice.jpg"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+            "sku": "ri002",
+            "name": "Annam  5Kg Jeera Samba Rice",
+            "description": "A delicious rice item.",
+            "price": 100.0,
+            "category": 1,
+            "rating": 4.5,
+            "image": "rice/Annam_ 5kg Jeera Samba Rice.jpg"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+            "sku": "ri003",
+            "name": "Annam  5Kg Red Parboiled Matta Rice",
+            "description": "A delicious rice item.",
+            "price": 100.0,
+            "category": 1,
+            "rating": 4.5,
+            "image": "rice/Annam_ 5kg Red Parboiled Matta Rice.jpg"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+            "sku": "ri004",
+            "name": "Annam  5Kg Sona Masoori Rice",
+            "description": "A delicious rice item.",
+            "price": 100.0,
+            "category": 1,
+            "rating": 4.5,
+            "image": "rice/Annam_ 5kg Sona Masoori Rice.jpg"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+            "sku": "ri005",
+            "name": "Daawat  10Kg Green Basmati Extra Long Rice",
+            "description": "A delicious rice item.",
+            "price": 100.0,
+            "category": 1,
+            "rating": 4.5,
+            "image": "rice/Daawat_ 10kg Green Basmati Extra Long Rice.jpg"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+            "sku": "ri006",
+            "name": "Daawat  5Kg Blue Original Basmati Rice",
+            "description": "A delicious rice item.",
+            "price": 100.0,
+            "category": 1,
+            "rating": 4.5,
+            "image": "rice/Daawat_ 5kg Blue Original Basmati Rice.jpg"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+            "sku": "pu007",
+            "name": "Ab  1Kg Red Lentils (Masoor Dal)",
+            "description": "A delicious pulses item.",
+            "price": 100.0,
+            "category": 2,
+            "rating": 4.5,
+            "image": "pulses/AB_ 1kg Red Lentils (Masoor Dal).jpg"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.product",
+        "fields": {
+            "sku": "pu008",
+            "name": "Ab  2Kg Mung Dal",
+            "description": "A delicious pulses item.",
+            "price": 100.0,
+            "category": 2,
+            "rating": 4.5,
+            "image": "pulses/AB_ 2kg Mung Dal.png"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.product",
+        "fields": {
+            "sku": "pu009",
+            "name": "Ab  500G Mung Whole",
+            "description": "A delicious pulses item.",
+            "price": 100.0,
+            "category": 2,
+            "rating": 4.5,
+            "image": "pulses/AB_ 500g Mung Whole.jpg"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.product",
+        "fields": {
+            "sku": "pu010",
+            "name": "Ab  500G Red Kidney Beans",
+            "description": "A delicious pulses item.",
+            "price": 100.0,
+            "category": 2,
+            "rating": 4.5,
+            "image": "pulses/AB_ 500g Red Kidney Beans.jpg"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+            "sku": "pu011",
+            "name": "Annam  1Kg Urid Dal Gota",
+            "description": "A delicious pulses item.",
+            "price": 100.0,
+            "category": 2,
+            "rating": 4.5,
+            "image": "pulses/Annam_ 1kg Urid Dal Gota.jpg"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "products.product",
+        "fields": {
+            "sku": "pu012",
+            "name": "Annam  2Kg Toor Dal",
+            "description": "A delicious pulses item.",
+            "price": 100.0,
+            "category": 2,
+            "rating": 4.5,
+            "image": "pulses/Annam_ 2kg Toor Dal.png"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "products.product",
+        "fields": {
+            "sku": "pu013",
+            "name": "Trs  2Kg Kala Chana (Chickpeas Brown)",
+            "description": "A delicious pulses item.",
+            "price": 100.0,
+            "category": 2,
+            "rating": 4.5,
+            "image": "pulses/TRS_ 2kg Kala Chana (Chickpeas Brown).jpg"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "products.product",
+        "fields": {
+            "sku": "sp014",
+            "name": "Ab  50G Bay Leaves",
+            "description": "A delicious spices item.",
+            "price": 100.0,
+            "category": 3,
+            "rating": 4.5,
+            "image": "spices/AB_ 50g Bay leaves.jpg"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "products.product",
+        "fields": {
+            "sku": "sp015",
+            "name": "Annam  50G Dalchini Whole (Cinamon)",
+            "description": "A delicious spices item.",
+            "price": 100.0,
+            "category": 3,
+            "rating": 4.5,
+            "image": "spices/Annam_ 50g Dalchini Whole (Cinamon).jpg"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "products.product",
+        "fields": {
+            "sku": "sp016",
+            "name": "Heera  100G Anardana Whole",
+            "description": "A delicious spices item.",
+            "price": 100.0,
+            "category": 3,
+            "rating": 4.5,
+            "image": "spices/Heera_ 100g Anardana Whole.jpg"
+        }
+    },
+    {
+        "pk": 17,
+        "model": "products.product",
+        "fields": {
+            "sku": "sp017",
+            "name": "Krg  100G Mustard Seeds Black",
+            "description": "A delicious spices item.",
+            "price": 100.0,
+            "category": 3,
+            "rating": 4.5,
+            "image": "spices/KRG_ 100g Mustard Seeds Black.jpg"
+        }
+    },
+    {
+        "pk": 18,
+        "model": "products.product",
+        "fields": {
+            "sku": "sp018",
+            "name": "Schani  100G Kasoori Methi",
+            "description": "A delicious spices item.",
+            "price": 100.0,
+            "category": 3,
+            "rating": 4.5,
+            "image": "spices/Schani_ 100g Kasoori Methi.png"
+        }
+    },
+    {
+        "pk": 19,
+        "model": "products.product",
+        "fields": {
+            "sku": "sp019",
+            "name": "Trs  100G Ajwain",
+            "description": "A delicious spices item.",
+            "price": 100.0,
+            "category": 3,
+            "rating": 4.5,
+            "image": "spices/TRS_ 100g Ajwain.jpg"
+        }
+    },
+    {
+        "pk": 20,
+        "model": "products.product",
+        "fields": {
+            "sku": "sp020",
+            "name": "Trs  100G Sesame Seeds Hulled",
+            "description": "A delicious spices item.",
+            "price": 100.0,
+            "category": 3,
+            "rating": 4.5,
+            "image": "spices/TRS_ 100g Sesame Seeds Hulled.jpg"
+        }
+    },
+    {
+        "pk": 21,
+        "model": "products.product",
+        "fields": {
+            "sku": "sw021",
+            "name": "Haldiram  1Kg Gulab Jamun Dumpl",
+            "description": "A delicious sweets item.",
+            "price": 100.0,
+            "category": 4,
+            "rating": 4.5,
+            "image": "sweets/Haldiram_ 1kg Gulab Jamun Dumpl..jpg"
+        }
+    },
+    {
+        "pk": 22,
+        "model": "products.product",
+        "fields": {
+            "sku": "sw022",
+            "name": "Haldiram  250G Soanpapdi",
+            "description": "A delicious sweets item.",
+            "price": 100.0,
+            "category": 4,
+            "rating": 4.5,
+            "image": "sweets/Haldiram_ 250g Soanpapdi.jpg"
+        }
+    },
+    {
+        "pk": 23,
+        "model": "products.product",
+        "fields": {
+            "sku": "sw023",
+            "name": "Kemchho  270G Dryfruit Samosa",
+            "description": "A delicious sweets item.",
+            "price": 100.0,
+            "category": 4,
+            "rating": 4.5,
+            "image": "sweets/Kemchho_ 270g Dryfruit Samosa.png"
+        }
+    },
+    {
+        "pk": 24,
+        "model": "products.product",
+        "fields": {
+            "sku": "sw024",
+            "name": "Motichur Ladoo",
+            "description": "A delicious sweets item.",
+            "price": 100.0,
+            "category": 4,
+            "rating": 4.5,
+            "image": "sweets/Motichur Ladoo.jpg"
+        }
+    },
+    {
+        "pk": 25,
+        "model": "products.product",
+        "fields": {
+            "sku": "sw025",
+            "name": "Shankarpali",
+            "description": "A delicious sweets item.",
+            "price": 100.0,
+            "category": 4,
+            "rating": 4.5,
+            "image": "sweets/Shankarpali.png"
+        }
+    },
+    {
+        "pk": 26,
+        "model": "products.product",
+        "fields": {
+            "sku": "sw026",
+            "name": "A2B-Fruit-Halwa",
+            "description": "A delicious sweets item.",
+            "price": 100.0,
+            "category": 4,
+            "rating": 4.5,
+            "image": "sweets/a2b-fruit-halwa.webp"
+        }
+    },
+    {
+        "pk": 27,
+        "model": "products.product",
+        "fields": {
+            "sku": "sw027",
+            "name": "A2B-Special-Mysore-Pak",
+            "description": "A delicious sweets item.",
+            "price": 100.0,
+            "category": 4,
+            "rating": 4.5,
+            "image": "sweets/a2b-special-mysore-pak.webp"
+        }
+    },
+    {
+        "pk": 28,
+        "model": "products.product",
+        "fields": {
+            "sku": "sa028",
+            "name": "A2B-Thattai-200G-430X430",
+            "description": "A delicious savouries item.",
+            "price": 100.0,
+            "category": 5,
+            "rating": 4.5,
+            "image": "savouries/A2B-Thattai-200g-430x430.webp"
+        }
+    },
+    {
+        "pk": 29,
+        "model": "products.product",
+        "fields": {
+            "sku": "sa029",
+            "name": "Haldiram  200G Khatta Meetha Mix",
+            "description": "A delicious savouries item.",
+            "price": 100.0,
+            "category": 5,
+            "rating": 4.5,
+            "image": "savouries/Haldiram_ 200g Khatta Meetha Mix.png"
+        }
+    },
+    {
+        "pk": 30,
+        "model": "products.product",
+        "fields": {
+            "sku": "sa030",
+            "name": "Haldiram  200G Samosa Snack",
+            "description": "A delicious savouries item.",
+            "price": 100.0,
+            "category": 5,
+            "rating": 4.5,
+            "image": "savouries/Haldiram_ 200g Samosa Snack.png"
+        }
+    },
+    {
+        "pk": 31,
+        "model": "products.product",
+        "fields": {
+            "sku": "sa031",
+            "name": "A2Bminimuruku",
+            "description": "A delicious savouries item.",
+            "price": 100.0,
+            "category": 5,
+            "rating": 4.5,
+            "image": "savouries/a2bminimuruku.jpg"
+        }
+    },
+    {
+        "pk": 32,
+        "model": "products.product",
+        "fields": {
+            "sku": "sa032",
+            "name": "A2Bmixture",
+            "description": "A delicious savouries item.",
+            "price": 100.0,
+            "category": 5,
+            "rating": 4.5,
+            "image": "savouries/a2bmixture.webp"
+        }
+    },
+    {
+        "pk": 33,
+        "model": "products.product",
+        "fields": {
+            "sku": "sa033",
+            "name": "A2Bompodi",
+            "description": "A delicious savouries item.",
+            "price": 100.0,
+            "category": 5,
+            "rating": 4.5,
+            "image": "savouries/a2bompodi.webp"
+        }
+    },
+    {
+        "pk": 34,
+        "model": "products.product",
+        "fields": {
+            "sku": "sa034",
+            "name": "A2Bpakoda",
+            "description": "A delicious savouries item.",
+            "price": 100.0,
+            "category": 5,
+            "rating": 4.5,
+            "image": "savouries/a2bpakoda.jpg"
+        }
+    },
+    {
+        "pk": 35,
+        "model": "products.product",
+        "fields": {
+            "sku": "sa035",
+            "name": "A2Bseedai",
+            "description": "A delicious savouries item.",
+            "price": 100.0,
+            "category": 5,
+            "rating": 4.5,
+            "image": "savouries/a2bseedai.webp"
+        }
+    },
+    {
+        "pk": 36,
+        "model": "products.product",
+        "fields": {
+            "sku": "be036",
+            "name": "Almondfalooda",
+            "description": "A delicious beverages item.",
+            "price": 100.0,
+            "category": 6,
+            "rating": 4.5,
+            "image": "beverages/AlmondFalooda.jpg"
+        }
+    },
+    {
+        "pk": 37,
+        "model": "products.product",
+        "fields": {
+            "sku": "be037",
+            "name": "Brooke Bond  500G Red Label Tea (Loose)",
+            "description": "A delicious beverages item.",
+            "price": 100.0,
+            "category": 6,
+            "rating": 4.5,
+            "image": "beverages/Brooke Bond_ 500g Red label Tea (loose).jpg"
+        }
+    },
+    {
+        "pk": 38,
+        "model": "products.product",
+        "fields": {
+            "sku": "be038",
+            "name": "Brucoffee",
+            "description": "A delicious beverages item.",
+            "price": 100.0,
+            "category": 6,
+            "rating": 4.5,
+            "image": "beverages/BruCoffee.jpg"
+        }
+    },
+    {
+        "pk": 39,
+        "model": "products.product",
+        "fields": {
+            "sku": "be039",
+            "name": "Taj Mahal Black Tea",
+            "description": "A delicious beverages item.",
+            "price": 100.0,
+            "category": 6,
+            "rating": 4.5,
+            "image": "beverages/Taj Mahal Black Tea.jpg"
+        }
+    },
+    {
+        "pk": 40,
+        "model": "products.product",
+        "fields": {
+            "sku": "be040",
+            "name": "Cocowater",
+            "description": "A delicious beverages item.",
+            "price": 100.0,
+            "category": 6,
+            "rating": 4.5,
+            "image": "beverages/cocowater.webp"
+        }
+    },
+    {
+        "pk": 41,
+        "model": "products.product",
+        "fields": {
+            "sku": "be041",
+            "name": "Mangopulp",
+            "description": "A delicious beverages item.",
+            "price": 100.0,
+            "category": 6,
+            "rating": 4.5,
+            "image": "beverages/mangopulp.png"
+        }
+    }
+]

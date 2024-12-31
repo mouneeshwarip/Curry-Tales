@@ -1,0 +1,367 @@
+[
+    {
+      "pk": 1,
+      "model": "products.product",
+      "fields": {
+        "sku": "rb001",
+        "name": "Almond Falooda",
+        "description": "A refreshing drink made with almond milk, falooda seeds, and ice cream.",
+        "price": 5.99,
+        "category": 10,
+        "rating": 4.5,
+        "image_url": "/media/AlmondFalooda.jpg",
+        "image": "AlmondFalooda.jpg"
+      }
+    },
+    {
+      "pk": 2,
+      "model": "products.product",
+      "fields": {
+        "sku": "rb002",
+        "name": "Brooke Bond 500g Red Label Tea (Loose)",
+        "description": "Premium red label tea leaves for a strong, refreshing cup of tea.",
+        "price": 3.49,
+        "category": 10,
+        "rating": 4.2,
+        "image_url": "/media/Brooke Bond_ 500g Red label Tea (loose).jpg",
+        "image": "Brooke Bond_ 500g Red label Tea (loose).jpg"
+      }
+    },
+    {
+      "pk": 3,
+      "model": "products.product",
+      "fields": {
+        "sku": "rb003",
+        "name": "Bru Coffee",
+        "description": "A rich and aromatic coffee blend, perfect for your morning boost.",
+        "price": 4.99,
+        "category": 10,
+        "rating": 4.7,
+        "image_url": "/media/BruCoffee.jpg",
+        "image": "BruCoffee.jpg"
+      }
+    },
+    {
+      "pk": 5,
+      "model": "products.product",
+      "fields": {
+        "sku": "rb005",
+        "name": "Mango Pulp",
+        "description": "Pure mango pulp, perfect for making smoothies or desserts.",
+        "price": 6.99,
+        "category": 10,
+        "rating": 4.6,
+        "image_url": "/media/mangopulp.png",
+        "image": "mangopulp.png"
+      }
+    },
+    {
+      "pk": 6,
+      "model": "products.product",
+      "fields": {
+        "sku": "rb006",
+        "name": "Taj Mahal Black Tea",
+        "description": "A blend of fine black tea leaves for a rich and flavorful brew.",
+        "price": 3.99,
+        "category": 10,
+        "rating": 4.4,
+        "image_url": "/media/Taj Mahal Black Tea.jpg",
+        "image": "Taj Mahal Black Tea.jpg"
+      }
+    },
+    {
+      "pk": 7,
+      "model": "products.product",
+      "fields": {
+        "sku": "pl001",
+        "name": "Red Lentils (Masoor Dal) 1kg",
+        "description": "High-quality red lentils for all your cooking needs.",
+        "price": 1.99,
+        "category": 2,
+        "rating": 4.5,
+        "image_url": "/media/AB_ 1kg Red Lentils (Masoor Dal).jpg",
+        "image": "AB_ 1kg Red Lentils (Masoor Dal).jpg"
+      }
+    },
+    {
+      "pk": 8,
+      "model": "products.product",
+      "fields": {
+        "sku": "pl002",
+        "name": "Mung Dal 2kg",
+        "description": "Mung dal is a rich source of protein and a staple in many dishes.",
+        "price": 2.49,
+        "category": 2,
+        "rating": 4.6,
+        "image_url": "/media/AB_ 2kg Mung Dal.png",
+        "image": "AB_ 2kg Mung Dal.png"
+      }
+    },
+    {
+      "pk": 9,
+      "model": "products.product",
+      "fields": {
+        "sku": "pl003",
+        "name": "Mung Whole 500g",
+        "description": "Whole mung beans, rich in protein and fiber.",
+        "price": 1.79,
+        "category": 2,
+        "rating": 4.4,
+        "image_url": "/media/AB_ 500g Mung Whole.jpg",
+        "image": "AB_ 500g Mung Whole.jpg"
+      }
+    },
+    {
+      "pk": 10,
+      "model": "products.product",
+      "fields": {
+        "sku": "pl004",
+        "name": "Red Kidney Beans 500g",
+        "description": "Rich in iron and perfect for a variety of dishes.",
+        "price": 2.19,
+        "category": 2,
+        "rating": 4.7,
+        "image_url": "/media/AB_ 500g Red Kidney Beans.jpg",
+        "image": "AB_ 500g Red Kidney Beans.jpg"
+      }
+    },
+    {
+      "pk": 11,
+      "model": "products.product",
+      "fields": {
+        "sku": "pl005",
+        "name": "Urid Dal Gota 1kg",
+        "description": "Urid dal is used in many South Indian recipes like dosas and idlis.",
+        "price": 3.49,
+        "category": 2,
+        "rating": 4.5,
+        "image_url": "/media/Annam_ 1kg Urid Dal Gota.jpg",
+        "image": "Annam_ 1kg Urid Dal Gota.jpg"
+      }
+    },
+    {
+      "pk": 12,
+      "model": "products.product",
+      "fields": {
+        "sku": "pl006",
+        "name": "Toor Dal 2kg",
+        "description": "Toor dal is commonly used in dal fry and sambars.",
+        "price": 3.29,
+        "category": 2,
+        "rating": 4.3,
+        "image_url": "/media/Annam_ 2kg Toor Dal.png",
+        "image": "Annam_ 2kg Toor Dal.png"
+      }
+    },
+    {
+      "pk": 13,
+      "model": "products.product",
+      "fields": {
+        "sku": "pl007",
+        "name": "Kala Chana (Chickpeas Brown) 2kg",
+        "description": "Brown chickpeas that are rich in fiber and protein.",
+        "price": 2.99,
+        "category": 2,
+        "rating": 4.4,
+        "image_url": "/media/RS_ 2kg Kala Chana (Chickpeas Brown).jpg",
+        "image": "TRS_ 2kg Kala Chana (Chickpeas Brown).jpg"
+      }
+    },
+    {
+      "pk": 14,
+      "model": "products.product",
+      "fields": {
+        "sku": "rs001",
+        "name": "Idly Rice 1kg",
+        "description": "Special rice for making idlies, a traditional South Indian breakfast.",
+        "price": 2.19,
+        "category": 1,
+        "rating": 4.7,
+        "image_url": "/media/Annam_ 1kg Idly Rice.jpg",
+        "image": "Annam_ 1kg Idly Rice.jpg"
+      }
+    },
+    {
+      "pk": 15,
+      "model": "products.product",
+      "fields": {
+        "sku": "rs002",
+        "name": "Jeera Samba Rice 5kg",
+        "description": "A type of fragrant rice used in biryanis and pilafs.",
+        "price": 4.99,
+        "category": 1,
+        "rating": 4.6,
+        "image_url": "/media/Annam_ 5kg Jeera Samba Rice.jpg",
+        "image": "Annam_ 5kg Jeera Samba Rice.jpg"
+      }
+    },
+    {
+      "pk": 16,
+      "model": "products.product",
+      "fields": {
+        "sku": "rs003",
+        "name": "Red Parboiled Matta Rice 5kg",
+        "description": "A variety of rice commonly used in Kerala and South India.",
+        "price": 3.99,
+        "category": 1,
+        "rating": 4.5,
+        "image_url": "/media/Annam_ 5kg Red Parboiled Matta Rice.jpg",
+        "image": "Annam_ 5kg Red Parboiled Matta Rice.jpg"
+      }
+    },
+    {
+      "pk": 17,
+      "model": "products.product",
+      "fields": {
+        "sku": "rs004",
+        "name": "Sona Masoori Rice 5kg",
+        "description": "A medium-grain rice used in various South Indian and Indian dishes.",
+        "price": 3.49,
+        "category": 1,
+        "rating": 4.8,
+        "image_url": "/media/Annam_ 5kg Sona Masoori Rice.jpg",
+        "image": "Annam_ 5kg Sona Masoori Rice.jpg"
+      }
+    },
+    {
+      "pk": 18,
+      "model": "products.product",
+      "fields": {
+        "sku": "rs005",
+        "name": "Blue Original Basmati Rice 5kg",
+        "description": "A premium quality basmati rice for biryanis and pulaos.",
+        "price": 6.99,
+        "category": 1,
+        "rating": 4.6,
+        "image_url": "/media/Daawat_ 5kg Blue Original Basmati Rice.jpg",
+        "image": "Daawat_ 5kg Blue Original Basmati Rice.jpg"
+      }
+    },
+    {
+      "pk": 19,
+      "model": "products.product",
+      "fields": {
+        "sku": "rs006",
+        "name": "Green Basmati Extra Long Rice 10kg",
+        "description": "Extra-long grains of premium basmati rice, perfect for special occasions.",
+        "price": 12.99,
+        "category": 1,
+        "rating": 4.7,
+        "image_url": "/media/Daawat_ 10kg Green Basmati Extra Long Rice.jpg",
+        "image": "Daawat_ 10kg Green Basmati Extra Long Rice.jpg"
+      }
+    },
+    {
+      "pk": 20,
+      "model": "products.product",
+      "fields": {
+        "sku": "sn001",
+        "name": "Haldirams Thattai 200g",
+        "description": "Crispy and flavorful South Indian snack.",
+        "price": 2.49,
+        "category": 3,
+        "rating": 4.5,
+        "image_url": "/media/thattai.jpg",
+        "image": "thattai.jpg"
+      }
+    },
+    {
+      "pk": 21,
+      "model": "products.product",
+      "fields": {
+        "sku": "sn002",
+        "name": "A2B Mini Muruku",
+        "description": "A crunchy and delicious snack for any occasion.",
+        "price": 2.29,
+        "category": 3,
+        "rating": 4.6,
+        "image_url": "/media/a2bminimuruku.jpg",
+        "image": "a2bminimuruku.jpg"
+      }
+    },
+    {
+      "pk": 22,
+      "model": "products.product",
+      "fields": {
+        "sku": "sn003",
+        "name": "Haldirams All in one Mixture",
+        "description": "A delicious blend of crunchy ingredients in one snack.",
+        "price": 3.99,
+        "category": 3,
+        "rating": 4.7,
+        "image_url": "/media/mixture.jpg",
+        "image": "mixture.jpg"
+      }
+    },
+    {
+      "pk": 23,
+      "model": "products.product",
+      "fields": {
+        "sku": "sn004",
+        "name": "Haldiram bhujia",
+        "description": "A traditional South Indian snack made with chickpea flour.",
+        "price": 3.49,
+        "category": 3,
+        "rating": 4.6,
+        "image_url": "/media/bhujia.jpg",
+        "image": "bhujia.jpg"
+      }
+    },
+    {
+      "pk": 24,
+      "model": "products.product",
+      "fields": {
+        "sku": "sn005",
+        "name": "A2B Pakoda",
+        "description": "Crispy and spicy fried snack made from gram flour.",
+        "price": 2.99,
+        "category": 3,
+        "rating": 4.4,
+        "image_url": "/media/a2bpakoda.jpg",
+        "image": "a2bpakoda.jpg"
+      }
+    },
+    {
+      "pk": 25,
+      "model": "products.product",
+      "fields": {
+        "sku": "sn006",
+        "name": "Haldiram Boondi plain",
+        "description": "Crispy and savory traditional South Indian snack.",
+        "price": 3.29,
+        "category": 3,
+        "rating": 4.5,
+        "image_url": "/media/Haldiram_Boondi Plain.jpg", 
+        "image": "Haldiram_Boondi Plain.jpg"
+      }
+    },
+    {
+      "pk": 26,
+      "model": "products.product",
+      "fields": {
+        "sku": "sn007",
+        "name": "Haldiram Khatta Meetha Mix 200g",
+        "description": "A sweet and sour mix of crispy snacks.",
+        "price": 2.49,
+        "category": 3,
+        "rating": 4.4,
+        "image_url": "/media/Haldiram_ 200g Khatta Meetha Mix.png",
+        "image": "Haldiram_ 200g Khatta Meetha Mix.png"
+      }
+    },
+    {
+      "pk": 27,
+      "model": "products.product",
+      "fields": {
+        "sku": "sn008",
+        "name": "Haldiram Samosa Snack 200g",
+        "description": "A tasty and crunchy samosa-flavored snack.",
+        "price": 2.79,
+        "category": 3,
+        "rating": 4.5,
+        "image_url": "/media/Haldiram_ 200g Samosa Snack.png",
+        "image": "Haldiram_ 200g Samosa Snack.png"
+      }
+    }
+  ]
+  

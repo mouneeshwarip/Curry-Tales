@@ -49,8 +49,9 @@
         } else {
             var allQuantityInputs = $(`.input-group-${itemId} input[name='quantity']`);
         }
-        console.log('allQuantityInputs:', allQuantityInputs)
+
         var currentValue = parseInt($(closestInput).val());
+        console.log(`Increment Clicked - Item ID: ${itemId}, Size: ${size}, Current Value: ${currentValue}`);
         $(allQuantityInputs).val(currentValue + 1);
         handleEnableDisable(itemId, size);
     });
@@ -66,8 +67,8 @@
         } else {
             var allQuantityInputs = $(`.input-group-${itemId} input[name='quantity']`);
         }
-        console.log('allQuantityInputs:', allQuantityInputs)
         var currentValue = parseInt($(closestInput).val());
+        console.log(`Decrement Clicked - Item ID: ${itemId}, Size: ${size}, Current Value: ${currentValue}`);
         $(allQuantityInputs).val(currentValue - 1);
         handleEnableDisable(itemId, size);
     });

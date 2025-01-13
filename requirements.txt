@@ -1,8 +1,10 @@
 asgiref==3.8.1
 black==24.10.0
 click==8.1.8
+crispy-bootstrap4==2024.10
 Django==5.1.4
 django-allauth==0.61.1
+django-countries==7.6.1
 django-crispy-forms==2.3
 oauthlib==3.2.2
 pathspec==0.12.1
@@ -11,6 +13,7 @@ PyJWT==2.10.1
 python3-openid==3.2.0
 pytz==2024.2
 requests-oauthlib==2.0.0
-setuptools==65.5.1
+setuptools==75.8.0
 sqlparse==0.5.3
+stripe==11.4.1
 whatever==0.7

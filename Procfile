@@ -1,0 +1,1 @@
+web: gunicorn curry_tales.wsgi:application

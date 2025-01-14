@@ -1,6 +1,5 @@
 asgiref==3.8.1
 black==24.10.0
-boto3==1.35.98
 botocore==1.35.98
 click==8.1.8
 crispy-bootstrap4==2024.10
@@ -9,7 +8,6 @@ Django==5.1.4
 django-allauth==0.61.1
 django-countries==7.6.1
 django-crispy-forms==2.3
-django-storages==1.14.4
 gunicorn==23.0.0
 jmespath==1.0.1
 oauthlib==3.2.2
@@ -29,3 +27,4 @@ sqlparse==0.5.3
 stripe==11.4.1
 whatever==0.7
 yapf==0.43.0
+

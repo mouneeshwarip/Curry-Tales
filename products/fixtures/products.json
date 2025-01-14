@@ -17,7 +17,7 @@
     "model": "products.product",
     "fields": {
       "sku": "rb002",
-      "name": "Brooke Bond 500g Red Label Tea (Loose)",
+      "name": "Brooke Bond Red Label Tea",
       "description": "Premium red label tea leaves for a strong, refreshing cup of tea.",
       "price": 3.49,
       "category": 10,
@@ -73,7 +73,7 @@
     "model": "products.product",
     "fields": {
       "sku": "pl001",
-      "name": "Red Lentils (Masoor Dal) 1kg",
+      "name": "Red Lentils (Masoor Dal)",
       "description": "High-quality red lentils for all your cooking needs.",
       "price": 1.99,
       "category": 2,
@@ -87,7 +87,7 @@
     "model": "products.product",
     "fields": {
       "sku": "pl002",
-      "name": "Mung Dal 2kg",
+      "name": "Mung Dal",
       "description": "Mung dal is a rich source of protein and a staple in many dishes.",
       "price": 2.49,
       "category": 2,
@@ -101,7 +101,7 @@
     "model": "products.product",
     "fields": {
       "sku": "pl003",
-      "name": "Mung Whole 500g",
+      "name": "Mung Whole",
       "description": "Whole mung beans, rich in protein and fiber.",
       "price": 1.79,
       "category": 8,
@@ -115,7 +115,7 @@
     "model": "products.product",
     "fields": {
       "sku": "pl004",
-      "name": "Red Kidney Beans 500g",
+      "name": "Red Kidney Beans",
       "description": "Rich in iron and perfect for a variety of dishes.",
       "price": 2.19,
       "category": 2,
@@ -129,7 +129,7 @@
     "model": "products.product",
     "fields": {
       "sku": "pl005",
-      "name": "Urid Dal Gota 1kg",
+      "name": "Urid Dal Gota",
       "description": "Urid dal is used in many South Indian recipes like dosas and idlis.",
       "price": 3.49,
       "category": 8,
@@ -143,7 +143,7 @@
     "model": "products.product",
     "fields": {
       "sku": "pl006",
-      "name": "Toor Dal 2kg",
+      "name": "Toor Dal",
       "description": "Toor dal is commonly used in dal fry and sambars.",
       "price": 3.29,
       "category": 2,
@@ -157,7 +157,7 @@
     "model": "products.product",
     "fields": {
       "sku": "pl007",
-      "name": "Kala Chana (Chickpeas Brown) 2kg",
+      "name": "Kala Chana (Chickpeas Brown)",
       "description": "Brown chickpeas that are rich in fiber and protein.",
       "price": 2.99,
       "category": 2,
@@ -171,7 +171,7 @@
     "model": "products.product",
     "fields": {
       "sku": "rs001",
-      "name": "Idly Rice 1kg",
+      "name": "Idly Rice",
       "description": "Special rice for making idlies, a traditional South Indian breakfast.",
       "price": 2.19,
       "category": 1,
@@ -185,7 +185,7 @@
     "model": "products.product",
     "fields": {
       "sku": "rs002",
-      "name": "Jeera Samba Rice 5kg",
+      "name": "Jeera Samba Rice",
       "description": "A type of fragrant rice used in biryanis and pilafs.",
       "price": 4.99,
       "category": 1,
@@ -199,7 +199,7 @@
     "model": "products.product",
     "fields": {
       "sku": "rs003",
-      "name": "Red Parboiled Matta Rice 5kg",
+      "name": "Red Parboiled Matta Rice",
       "description": "A variety of rice commonly used in Kerala and South India.",
       "price": 3.99,
       "category": 1,
@@ -213,7 +213,7 @@
     "model": "products.product",
     "fields": {
       "sku": "rs004",
-      "name": "Sona Masoori Rice 5kg",
+      "name": "Sona Masoori Rice",
       "description": "A medium-grain rice used in various South Indian and Indian dishes.",
       "price": 3.49,
       "category": 1,
@@ -227,7 +227,7 @@
     "model": "products.product",
     "fields": {
       "sku": "rs005",
-      "name": "Blue Original Basmati Rice 5kg",
+      "name": "Blue Original Basmati Rice",
       "description": "A premium quality basmati rice for biryanis and pulaos.",
       "price": 6.99,
       "category": 1,
@@ -241,7 +241,7 @@
     "model": "products.product",
     "fields": {
       "sku": "rs006",
-      "name": "Green Basmati Extra Long Rice 10kg",
+      "name": "Green Basmati Extra Long Rice",
       "description": "Extra-long grains of premium basmati rice, perfect for special occasions.",
       "price": 12.99,
       "category": 8,
@@ -255,7 +255,7 @@
     "model": "products.product",
     "fields": {
       "sku": "sn001",
-      "name": "Haldirams Thattai 200g",
+      "name": "Haldirams Thattai",
       "description": "Crispy and flavorful South Indian snack.",
       "price": 2.49,
       "category": 9,
@@ -339,7 +339,7 @@
     "model": "products.product",
     "fields": {
       "sku": "sn007",
-      "name": "Haldiram Khatta Meetha Mix 200g",
+      "name": "Haldiram Khatta Meetha Mix",
       "description": "A sweet and sour mix of crispy snacks.",
       "price": 2.49,
       "category": 3,
@@ -353,7 +353,7 @@
     "model": "products.product",
     "fields": {
       "sku": "sn008",
-      "name": "Haldiram Samosa Snack 200g",
+      "name": "Haldiram Samosa Snack",
       "description": "A tasty and crunchy samosa-flavored snack.",
       "price": 2.79,
       "category": 3,
@@ -367,7 +367,7 @@
     "model": "products.product",
     "fields": {
       "sku": "sn009",
-      "name": "AB 50g Bay Leaves",
+      "name": "AB Bay Leaves",
       "description": "Bay leaves add a distinctive flavor to a wide range of dishes.",
       "price": 1.50,
       "category": 6,
@@ -381,7 +381,7 @@
     "model": "products.product",
     "fields": {
       "sku": "sn010",
-      "name": "Annam 50g Dalchini Whole (Cinnamon)",
+      "name": "Annam Dalchini Whole (Cinnamon)",
       "description": "Whole cinnamon sticks for adding a warm, spicy flavor to food.",
       "price": 2.00,
       "category": 6,
@@ -395,7 +395,7 @@
     "model": "products.product",
     "fields": {
       "sku": "sn011",
-      "name": "KRG 100g Mustard Seeds Black",
+      "name": "KRG Mustard Seeds Black",
       "description": "Black mustard seeds, ideal for seasoning and tempering.",
       "price": 1.20,
       "category": 4,
@@ -409,7 +409,7 @@
     "model": "products.product",
     "fields": {
       "sku": "sn012",
-      "name": "Schani 100g Kasoori Methi",
+      "name": "Schani Kasoori Methi",
       "description": "Dried fenugreek leaves with a unique aroma, used in Indian cooking.",
       "price": 1.80,
       "category": 4,
@@ -423,7 +423,7 @@
     "model": "products.product",
     "fields": {
       "sku": "sn013",
-      "name": "TRS 100g Ajwain",
+      "name": "TRS Ajwain",
       "description": "Ajwain (carom seeds) for adding a peppery, oregano-like taste.",
       "price": 1.00,
       "category": 6,
@@ -437,7 +437,7 @@
     "model": "products.product",
     "fields": {
       "sku": "sn014",
-      "name": "TRS 100g Sesame Seeds Hulled",
+      "name": "TRS Sesame Seeds Hulled",
       "description": "Hulled sesame seeds for sprinkling on dishes or using in cooking.",
       "price": 1.60,
       "category": 6,

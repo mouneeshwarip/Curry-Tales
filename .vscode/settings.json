@@ -19,4 +19,7 @@
    "editor.defaultFormatter": "ms-python.autopep8",
    "editor.defaultFoldingRangeProvider": "ms-python.autopep8",
    "autopep8.cwd": "${currytales}",
+   "[python]": {
+      "editor.defaultFormatter": "KylinIDETeam.python"
+   },
 }

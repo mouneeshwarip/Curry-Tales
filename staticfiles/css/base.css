@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: url('https://res.cloudinary.com/dhqenbhh3/image/upload/v1736900604/bg_j6pbbb.webp') no-repeat center center fixed;
+    background: url('/media/bg.webp') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;

@@ -2,10 +2,12 @@ asgiref==3.8.1
 black==24.10.0
 botocore==1.35.98
 click==8.1.8
+cloudinary==1.42.1
 crispy-bootstrap4==2024.10
 dj-database-url==0.5.0
 Django==5.1.4
 django-allauth==0.61.1
+django-cloudinary-storage==0.3.0
 django-countries==7.6.1
 django-crispy-forms==2.3
 gunicorn==23.0.0
@@ -26,5 +28,5 @@ setuptools==75.8.0
 sqlparse==0.5.3
 stripe==11.4.1
 whatever==0.7
+whitenoise==6.8.2
 yapf==0.43.0
-

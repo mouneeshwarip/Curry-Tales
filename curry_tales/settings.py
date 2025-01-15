@@ -12,8 +12,6 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 import os
 import dj_database_url
-from dotenv import load_dotenv
-load_dotenv()
 
 from pathlib import Path
 
@@ -177,9 +175,14 @@ USE_L10N = True
 
 USE_TZ = True
 
+
+# Media storage settings
+DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
+
+MEDIA_URL = '/media/'
+
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
-
 
 STATIC_URL = '/static/'
 MEDIA_URL = '/media/'

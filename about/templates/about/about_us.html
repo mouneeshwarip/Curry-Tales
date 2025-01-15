@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_meta %}
+<meta name="aboutus-description" content="Curry Tales, Indian Grocery Store, Authentic Indian Flavors, 
+        Savoirs, Indian Sweets, Premium Pulses, Aromatic Rice, Exotic Spices, 
+        Traditional Indian Ingredients, Gourmet Indian Food, Masalas, Organic Grains, 
+        Curry Tales Savoirs, Curry Tales Sweets, Curry Tales Pulses, Curry Tales Rice, 
+        Curry Tales Spices, Handpicked Indian Groceries, Homemade Indian Snacks, 
+        Indian Culinary Essentials, Spice Blends, Ready-to-Cook Indian Meals">
+{% endblock %}
+
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="overlay"></div>
+<div class="container mb-2 pb-5">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-6">
+            <hr>
+            <h2 class="logo-font mb-4 text-center">{{ about.title }}</h2>
+            <hr>
+        </div>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-6">
+            {{ about.content | safe }}
+        </div>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-6 text-right mb-2">
+            <p class="text-end"><em>Updated on: {{ about.updated_on }}</em></p>
+        </div>
+    </div>
+
+</div>
+{% endblock %}

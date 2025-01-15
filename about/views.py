@@ -2,8 +2,8 @@ from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 
 from django.contrib.auth.decorators import login_required
-from .models import About
-from .forms import AboutForm
+from .models import About, Contact
+from .forms import AboutForm, ContactForm
 
 # Create your views here.
 
@@ -53,3 +53,32 @@ def edit_about_us(request):
     }
 
     return render(request, template, context)    
+
+# Created contact view that renders info of contact form & update contact model
+def contact(request):
+    """
+    Display a ContactForm and insert record in Contact model.
+    """
+    if request.method == "POST":
+        contact_form = ContactForm(data=request.POST)
+        if contact_form.is_valid():
+            contact_form.save()
+            messages.add_message(
+                request, messages.SUCCESS,
+                'Thanks for Contacting Us! We will respond within 2 days.'
+            )
+        else:
+            messages.error(
+                request,
+                'Message failed. Please ensure data in all fields are valid.'
+            )
+
+    contact_form = ContactForm()
+
+    return render(
+        request,
+        "about/contact.html",
+        {
+            "contact_form": contact_form
+        },
+    )    

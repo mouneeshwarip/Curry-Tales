@@ -1,1 +1,6 @@
-Because my laptop, on which I had worked on most of my project, broke down, I lost the entire README.md file as it was not pushed to GitHub in time. The transition from my original Windows laptop to a Mac not only caused me to encounter problems with the operating system, but I also lost documents and had issues with my database. Thanks to tutor support, I was able to salvage most parts of my project. Unfortunately, the documentation is missing at the moment.
+# **Curry Tales**
+
+Curry Tales is an e-commerce website offering a curated selection of South Indian grocery items and snacks. We provide authentic products such as masala powders, rice varieties, and traditional snacks, bringing the flavors of South India to your doorstep. Users can easily browse, add items to their cart, and complete their purchases via a simple checkout process. With a user-friendly interface, profiles for order tracking, and a newsletter powered by Mailchimp, Curry Tales offers a seamless shopping experience for food lovers. Join us to explore the tastes of South India.
+
+[Access live website here]()
+

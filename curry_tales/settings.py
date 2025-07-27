@@ -36,7 +36,7 @@ CSRF_TRUSTED_ORIGINS = [
     'https://8000-mouneeshwari-currytales-tx7q1wfc73h.ws.codeinstitute-ide.net',
 ]
 
-ALLOWED_HOSTS = ['curry-tales-24f92d02dabe.herokuapp.com','8000-mouneeshwari-currytales-tx7q1wfc73h.ws.codeinstitute-ide.net','localhost']
+ALLOWED_HOSTS = ['curry-tales-24f92d02dabe.herokuapp.com','8000-mouneeshwari-currytales-tx7q1wfc73h.ws.codeinstitute-ide.net','localhost', '127.0.0.1']
 
 
 # Application definition

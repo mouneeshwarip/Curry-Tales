@@ -689,5 +689,1185 @@ The fonts used for the site are 'Lato'.
 
 [Back to top](<#table-of-content>)
 
+# Features
+This section is devided in [Existing Features](<#existing-features>) and [Future Features](<#future-features>) since there are more features needed for the production ready page.
+
+## Existing Features
+
+This section will be devided into multiple sub sections:
+
+## Navigational Features
+
+<details><summary><b>Open</b></summary>
+
+### Navigation
+The styling of the navigation bar was heavily influenced by the [Boutique ADO](https://boutique-ado-mj-102bd7708d45.herokuapp.com/) <!-- Check if this heroku link given above is ok--> walkthough website, while I tried to keep it as clean as possible. The only differences are between Admins and any other users - in addition to the usual navigation, the admin also has a "Product Management" option in the profile dropdown.
+
+The following is devided into mobile and desktop views, showing how each individual dropdown menu looks according to the screen size:
+
+<details><summary><b>Navigation Large</b></summary>
+
+* Main Navigation:
+
+![Navigation]()<!-- Check some image here-->
+
+* Dropdown foods
+
+![Dropdown Foods]()<!-- Check some image here-->
+
+* Dropdown Categories
+
+![Dropdown Categories]()<!-- Check some image here-->
+
+* Dropdown About Us
+
+![Dropdown About Us]()<!-- Check some image here-->
+
+* Dropdown Profile
+
+![Dropdown Profile]()<!-- Check some image here-->
+
+* Dropdown Profile Admin
+
+![Dropdown Profile Admin]()<!-- Check some image here-->
+
+[Back to top](<#table-of-content>)
+
+</details><br/>
+
+
+<details><summary><b>Navigation Small</b></summary>
+
+* Small Navigation:
+
+![Navigation Collapsed]()<!-- Check some image here-->
+
+* Small Navigation opened
+
+![Navigation Open]()<!-- Check some image here-->
+
+* Dropdown Food Items 
+
+![Dropdown Foods]()<!-- Check some image here-->
+
+* Dropdown Categories 
+
+![Dropdown Categories]() <!-- Check some image here-->
+
+* Dropdown About Us 
+
+![Dropdown About Us]()<!-- Check some image here-->
+
+* Dropdown Profile 
+
+![Dropdown Profile]()<!-- Check some image here-->
+
+* Dropdown Search 
+
+![Dropdown Search]()<!-- Check some image here-->
+
+* Dropdown Profile Admin 
+
+![Dropdown Profile Admin]()<!-- Check some image here-->
+
+[Back to top](<#table-of-content>)
+
+</details><br/>
+
+
+### Footer
+The desktop footer shows links to all social media platforms, as well as links for the contact and newsletter page. The latter ones are only in the main navigation for mobile screens available:
+
+<details><summary><b>Footer</b></summary>
+
+* Footer Dekstop
+
+![Footer Dekstop]()<!-- Check some image here-->
+
+* Footer Mobile
+
+![Footer Mobile]()<!-- Check some image here-->
+
+</details><br/>
+
+[Back to top](<#table-of-content>)
+
+</details><br/>
+
+## General Features
+
+<details><summary><b>Open</b></summary>
+
+### Home
+The home page is simplistic, easy to navigate and fully responsive: 
+
+<details><summary><b>Home</b></summary>
+
+* Home Dekstop
+
+![Home Dekstop]()<!-- Check some image here-->
+
+* Home Mobile
+
+![Home Mobile]()<!-- Check some image here-->
+
+* Delivery banner that informs the user about minimum order amount before getting free shipping
+
+![Delivery Banner]()<!-- Check some image here-->
+
+* Carousell that displays categories like "Bestsellers", "Our Recommendations" and more
+
+![Home Carousell]()<!-- Check some image here-->
+
+[Back to top](<#table-of-content>)
+
+</details><br/>
+
+
+### About
+The About page features a welcoming picture, as well as information about the store and its ideology. 
+
+<details><summary><b>About</b></summary>
+
+* About Dekstop
+
+![About Dekstop]()<!-- Check some image here-->
+
+* About Mobile
+
+![About Mobile]()<!-- Check some image here-->
+
+[Back to top](<#table-of-content>)
+
+</details><br/>
+
+### Contact Page
+The Contact Us page features a a form which includes *Name*, *email*, *subject* and *message* that gets send directly towards the admin panel.
+
+<details><summary><b>Contact Page</b></summary>
+
+* Contact Dekstop
+
+![Contact Dekstop]()<!-- Check some image here-->
+
+* Contact Mobile
+
+![Contact Mobile]()<!-- Check some image here-->
+
+[Back to top](<#table-of-content>)
+
+</details><br/>
+
+
+### Newsletter
+The Newsletter used in this project was designed and set up with [Mailchimp](https://www.mailchimp.com/). At the moment, a user will only get a newsletter subscription confirmation email, but Mailchimp allows to schedule outgoing emails and a variety of other possible marketing option.
+
+<details><summary><b>Newsletter</b></summary>
+
+* Newsletter Dekstop
+
+![Newsletter Dekstop]()<!-- Check some image here-->
+
+* Newsletter Mobile
+
+![Newsletter Mobile]()<!-- Check some image here-->
+
+* Newsletter Confirmation Mail
+
+![Newsletter confirmation]()<!-- Check some image here-->
+
+[Back to top](<#table-of-content>)
+
+</details><br/>
+
+### Products Page
+The Products page shows all available South Indian food items and snacks in the store with a picture, name of the item, the ingredients or description, the category it belongs to, and the price of the item. The user has to click on the picture of the item to get redirected to the Product Detail View.
+
+The Products Page is divided into 4 columns, which reduce to just one column, depending on the screen size, ensuring a responsive design across all devices.
+
+<details><summary><b>Products Page</b></summary>
+
+* Products Dekstop
+
+![Products Dekstop]()<!-- Check some image here-->
+
+* Products Tablet Big
+
+![Products Tablet Big]()<!-- Check some image here-->
+
+* Products Tablet Small
+
+![Products Tablet Small]()<!-- Check some image here-->
+
+* Products Mobile
+
+![Products Mobile]()<!-- Check some image here-->
+
+* Product Search Dekstop
+
+![Product Search Dekstop]()<!-- Check some image here-->
+
+[Back to top](<#table-of-content>)
+
+</details><br/>
+
+### Product Detail Page
+In the Product detail Page, the user gets all the information of each individual item. Not every item has all fields filled out, but mostly, all of the fields are filled out. 
+
+The fields which are available:
+
+* Picture
+* Name
+* Ingredients
+* SKU
+* Price
+* Description1: A brief description of the dish or snack
+* Description2: Additional information
+* Extra Info
+
+<details><summary><b>Product Detail View</b></summary>
+
+* Product Detail View Dekstop
+
+![Product Detail View Dekstop]()<!-- Check some image here--> 
+
+* Product Detail View Mobile
+
+![Product Detail View Mobile]() <!-- Check some image here--> 
+
+<details><summary><b>Sorting</b></summary>
+The user has the option to sort by price and name , both in ascending and descending order.
+
+
+* Dekstop Sorting high to low price
+
+![Newsletter Dekstop]() <!-- Check some image here--> 
+
+* Dekstop Sorting low to high price
+
+![Newsletter Mobile]() <!-- Check some image here--> 
+
+* Dekstop Sorting
+
+![Dekstop Sorting]() <!-- Check some image here--> 
+
+* Mobile Sorting
+
+![Mobile Sorting]() <!-- Check some image here--> 
+
+</details><br/>
+
+</details><br/>
+
+[Back to top](<#table-of-content>)
+
+</details><br/>
+
+## E-commerce Features
+
+<details><summary><b>Open</b></summary>
+
+### Shopping Bag
+The shopping bag does exactly what a shopping bag should do: You can add and remove items, as well as adjusting the quantity of each item in the bag. The bag displays the nessesary information about the product or products the user would like to purchase like name, picture and price. Depending on mobile or desktop view, the layout is a bit different, to make the process to the checkout page as easy as possible. The shopping bag also informs the user about delivery costs or if the minimum for free delivery has been reached.
+
+<details><summary><b>Shopping Bag</b></summary>
+
+* Shopping Bag Dekstop: Empty
+
+![Shopping Bag Dekstop]()<!-- Check some image here--> 
+
+* Shopping Bag Dekstop: No delivery cost
+
+![Shopping Bag Dekstop]() <!-- Check some image here--> 
+
+* Shopping Bag Dekstop: Delivery cost
+
+![Shopping Bag Dekstop]() <!-- Check some image here--> 
+
+* Shopping Bag Mobile: Empty
+
+![Shopping Bag Mobile]() <!-- Check some image here--> 
+
+* Shopping Bag Mobile: No delivery cost
+
+![Shopping Bag Mobile]() <!-- Check some image here--> 
+
+* Shopping Bag Mobile: Delivery cost
+
+![Shopping Bag Mobile]() <!-- Check some image here--> 
+
+[Back to top](<#table-of-content>)
+
+</details><br/>
+
+### Checkout
+In the checkout view, the user has to provide their name, email, shipping details and credit card details. If the user already has a profile, they can save the information to their profile or if they have already filled out all infos, either through an earlier purchase or by filling out the profile form manually, the checkout form will be pre populated (excluding the payment information).
+
+<details><summary><b>Checkout</b></summary>
+
+* Checkout Dekstop
+
+![Checkout Dekstop]() <!-- Check some image here--> 
+
+* Checkout Mobile
+
+![Checkout Mobile]() <!-- Check some image here--> 
+
+[Back to top](<#table-of-content>)
+
+</details><br/>
+
+### Checkout Success
+The checkout success page provides the user with their order details, including an order summary, order number and the info that a confirmation mail will be send to the by the user provided email address.
+
+<details><summary><b>Checkout Success</b></summary>
+
+* Checkout Success Dekstop
+
+![Checkout Success Dekstop]() <!-- Check some image here--> 
+
+* Checkout Success Mobile
+
+![Checkout Success Mobile]() <!-- Check some image here--> 
+
+[Back to top](<#table-of-content>)
+
+</details><br/>
+
+### Stripe
+Stripe is working as intended. All payments are going through and no errors are reported.
+
+<details><summary><b>Logout</b></summary>
+
+* Stripe Dashboard
+
+![Stripe Dashboard]()<!-- Check some image here--> 
+
+[Back to top](<#table-of-content>)
+
+</details><br/>
+
+### Mailchimp
+I used Mailchimp to set up my newsletter, where all the email addresses will be collected. Due to privacy reasons, I cannot show all collected email addresses.
+
+<details><summary><b>Mailchimp</b></summary>
+
+* Stripe Dashboard
+
+![Mailchimp Collecting Emails]() <!-- Check some image here--> 
+
+[Back to top](<#table-of-content>)
+
+</details><br/>
+
+</details><br/>
+
+## Profile Features
+
+<details><summary><b>Open</b></summary>
+
+### Register
+The sign up page is a modified all auth template that fullfills the basic "sign up" features like email and password input and validation and a user name. Also it gives the user twice the option to change to the "sign in" page.
+
+<details><summary><b>Register</b></summary>
+
+* Sign up Desktop
+
+![Sign up Dekstop]()<!-- Check some image here--> 
+
+* Sign up Mobile
+
+![Sign up Mobile]() <!-- Check some image here--> 
+
+[Back to top](<#table-of-content>)
+
+</details><br/>
+
+### Log In
+The Log in page is a modified all auth template that fullfills the basic "sign in" features. The user has to provide an email or username as well as their password. Also it gives the user the option to change to the "sign up" page or to reset their password.
+
+<details><summary><b>Sign In</b></summary>
+
+* Sign In Desktop
+
+![Sign In Dekstop]()<!-- Check some image here--> 
+
+* Sign In Mobile
+
+![Sign In Mobile]() <!-- Check some image here--> 
+
+[Back to top](<#table-of-content>)
+
+</details><br/>
+
+### Logout
+The Logout page is a modified all auth template that fullfills the basic "logout" features - it logs the user out.
+
+<details><summary><b>Logout</b></summary>
+
+* Logout Dekstop
+
+![Logout Dekstop]() <!-- Check some image here--> 
+
+* Logout Mobile
+
+![Logout Mobile]() <!-- Check some image here--> 
+
+[Back to top](<#table-of-content>)
+
+</details><br/>
+
+
+### Reset Password
+The Reset Password page is a modified all auth template that fullfills the basic "Reset Password" features. A user must provide their email and will get an email with a link to reset their password
+
+<details><summary><b>Reset Password</b></summary>
+
+* Reset Password Dekstop
+
+![Logout Dekstop]()<!-- Check some image here--> 
+
+* Reset Password Mobile
+
+![Logout Mobile]()<!-- Check some image here--> 
+
+[Back to top](<#table-of-content>)
+
+</details><br/>
+
+
+### Profile
+The profile page consists of two parts: The users profile info, including name, email and shipping address and as the second part the order history. If a user clicks on one of the order history items, they will be redirected to the corresponding checkout success page.
+
+<details><summary><b>Profile</b></summary>
+
+* Profile Dekstop
+
+![Profile Dekstop]()<!-- Check some image here--> 
+
+* Profile Mobile
+
+![Profile Mobile]() <!-- Check some image here--> 
+
+* Change Password 
+
+![Change Password]() <!-- Check some image here--> 
+
+</details><br/>
+
+[Back to top](<#table-of-content>)
+
+</details><br/>
+
+</details><br/>
+
+## Confirmation Features
+
+<details><summary><b>Open</b></summary>
+
+
+### Pop Up Messages
+There are a variety of different Pop Up messages - depending on what the user (or admin) wants to do, most functionalities are connected to a notification. In general, there are different types of messages:
+
+* Success messages: any action the user does which requires a positive feedback, like adding items to the cart, logging in or an admin updates the database successfully
+* Info messages: mostly admin related, which informs about editing the database, or when a user clicks a past oder summary
+* Warning message: for endusers, this only appears when the stripe public key is missing - the admin will be presented with this message if they want to delete a product or author
+* Error message: this message either informs the user about an error that occured, or if a normal user tries to use an admin path
+* Newsletter error message: if the user enters an invalid email format, an error message will appear
+* Newsletter success message: if the user subscribes to the newsletter, a success message will appear
+
+Site note: the admin success messages look different than for the users: users only get success confirmation for interacting with the store, so they will be shown a summary of their shopping bag, while the admin does not get the preview (reason: the admin gets success messages more frequently and usually does not shop in their own store).
+
+Below you can see some examples, more are in this [folder](readme/assets/images/features/msg/). <!-- Check if this folder is right--> 
+
+<details><summary><b>Messages</b></summary>
+
+* Success Message without shopping bag
+
+![Success Message]()<!-- Check some image here--> 
+
+* Success Message: Shopping bag with delivery cost
+
+![Success Message]() <!-- Check some image here--> 
+
+* Success Message: Shopping bag without delivery cost
+
+![Success Message]() <!-- Check some image here--> 
+
+* Info Message: Order history
+
+![Info Message]() <!-- Check some image here--> 
+
+* Warning Message: Deleting a product
+
+![Warning Message]() <!-- Check some image here--> 
+
+* Error Message: Wrong path
+
+![Warning Message]()<!-- Check some image here--> 
+
+* Newsletter Error / Success Message (There is a visual bug in the desktop version, more in the "Bugs" section)
+
+![Warning Message]()<!-- Check some image here--> 
+
+![Warning Message]()<!-- Check some image here--> 
+
+[Back to top](<#table-of-content>)
+
+</details><br/>
+
+### Confirmation Emails
+When a user registers, they have to confirm their email address with a link they will be provided with in an email. Also if a user places an order, they will get an email confirmation with the details of the order.
+
+<details><summary><b>Confirmation Emails</b></summary>
+
+* Confirm email address
+
+![Confirm Email Address]()<!-- Check some image here--> 
+
+* Order summary email
+
+![Order Summary Email]()<!-- Check some image here--> 
+
+</details><br/>
+
+[Back to top](<#table-of-content>)
+
+</details><br/>
+
+## Admin Features
+
+<details><summary><b>Open</b></summary>
+
+### Product Management
+When a superuser is logged in, they will get another item in the account dropdown labled "Product Management". On this page, they have the option to navigate to the admin panel without having to modify the url and to add a product, category, author or a FAQ item.
+
+<details><summary><b>Product Management</b></summary>
+
+* Desktop Product Management Panel
+
+![Desktop Product Management Panel]()<!-- Check some image here--> 
+
+* Mobile Product Management Panel
+
+![Mobile Product Management Panel]() <!-- Check some image here--> 
+
+[Back to top](<#table-of-content>)
+
+</details><br/>
+
+### Add Product
+This is the front end page where an admin can add a product.
+
+<details><summary><b>Add Product</b></summary>
+
+* Add Product Full Form
+
+![Add Product Full Form]()<!-- Check some image here--> 
+
+[Back to top](<#table-of-content>)
+
+</details><br/>
+
+### Edit Product
+This is the front end page where an admin can edit a product. 
+
+<details><summary><b>Edit Product</b></summary>
+
+* Edit Product Form
+
+![Edit Product Form]() <!-- Check some image here--> 
+
+* Edit Product Button
+
+![Edit Product]() <!-- Check some image here--> 
+
+[Back to top](<#table-of-content>)
+
+</details><br/>
+
+### Delete Product
+This is the front end page where an admin can delete a product.
+
+<details><summary><b>Delete Product</b></summary>
+
+* Desktop Delete Product Confirmation Page
+
+![Desktop Delete Product Confirmation Page]() <!-- Check some image here--> 
+
+* Mobile Delete Product Confirmation Page
+
+![Mobile Delete Product Confirmation Page]() <!-- Check some image here--> 
+
+[Back to top](<#table-of-content>)
+
+</details><br/>
+
+
+
+### Add Category
+This is the front end page where an admin can add a category. This form is shown in the mobile view as an example on how the other "Add ..." forms look like on a mobile view
+
+<details><summary><b>Add Category</b></summary>
+
+* Mobile Add Category
+
+![Mobile Add Category]() <!-- Check some image here--> 
+
+[Back to top](<#table-of-content>)
+
+</details><br/>
+
+
+
+### Admin Panel
+On the admin panel, an admin can access all profiles, email addresses, order, products and every other model. Everything has full CRUD functionality, so all features that do not have a corresponding front end page can be modified here.
+
+<details><summary><b>Admin Panel</b></summary>
+
+* Desktop Admin Panel
+
+![Desktop Admin Panel]() <!-- Check some image here--> 
+
+</details><br/>
+
+[Back to top](<#table-of-content>)
+
+</details><br/>
+
+</details><br/>
+
+## Future Features
+
+### Marketing
+
+* For a live website, future features include all the marketing ideas I came up with in in the marketing challange
+* An extension of the newsletter: Besides only getting a confirmation email, I would implement another email, timed possibly 24 hours after signing up, giving some sort of discount to make the user come back to the page. Also a bi-weekly or monthly newsletter should be implemented
+
+### Features
+
+* Adding the remaining user stories
+* Admin capability: Responding to contact requests via the website
+* Bugfixes (see "Bugs" section)
+* Adding a "Back to log in" button to the confirmation page which a user gets after resetting their password
+* Implementing some kind of discounts or loyalty rewards (user story)
+* Add a contact us modification so that the user gets the notification via email with their whole request
+* Implement a function that keeps track of the inventory so that an admin can specify on how many products are available
+* Extend the search function to also include About page
+* If an admin deletes an author or category, corresponding relations between the deleted models and the products should be applied
+* Adding an "Out of stock" label which disables the possibility to order an item, but it can still be displayed on the page
+
+[Back to top](<#table-of-content>)
+
+# Technologies Used
+
+## Languages
+
+* [Python](https://en.wikipedia.org/wiki/Python_(programming_language)) - Provides the functionality for the site.
+* [HTML5](https://en.wikipedia.org/wiki/HTML) - Provides the content and structure for the website.
+* [CSS3](https://en.wikipedia.org/wiki/CSS) - Provides the styling for the website.
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - Provides interactive elements of the website
+
+<!-- Check some image here--> 
+
+## Frameworks & Software <!-- Check this section--> 
+
+* [Bootstrap](https://getbootstrap.com/) - A CSS framework that helps building solid, responsive, mobile-first sites
+* [Django](https://www.djangoproject.com/) - A model-view-template framework used to create the Books and Giggles site
+* [Balsamiq](https://balsamiq.com/) - Used to create the wireframe
+* [Github](https://github.com/) - Used to host and edit the website
+* [GitBash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) - Terminal in [Gitpod](https://www.gitpod.io) used to push changes to the GitHub repository
+* [Heroku](https://en.wikipedia.org/wiki/Heroku) - A cloud platform that the application is deployed to
+* [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) - Used to test performance of site
+* [Multi Mockup](https://techsini.com/multi-mockup/) - Used for responsiveness check
+* [Graph Models](https://django-extensions.readthedocs.io/en/latest/graph_models.html) - Used to create a *.dot file of all models in the project
+* [dreampuf](https://dreampuf.github.io/GraphvizOnline/) - Creates visually appealing database diagrams of *.dot files
+* [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) - Used to debug and test responsiveness
+* [AWS](https://aws.amazon.com/) - Amazon Web Services - used to host all static files and pictures from the project in a S3 Bucket
+* [Stripe](https://stripe.com/) - A service provider to handle all payments on the website
+* [HTML Validation](https://validator.w3.org/) - Used to validate HTML code
+* [CSS Validation](https://jigsaw.w3.org/css-validator/) - Used to validate CSS code
+* [PEP8CI Validation](https://pep8ci.herokuapp.com/) - Used to validate the Python Code
+* [JSHint Validation](https://jshint.com/) - Used to validate JavaScript code
+
+[Back to top](<#table-of-content>)
+
+## Libraries
+The libraries used in this project are located in the requirements.txt file and have been documented below
+
+* [asgiref](https://pypi.org/project/asgiref/) - ASGI is a standard for Python asynchronous web apps and servers to communicate with each other, and positioned as an asynchronous successor to WSGI
+* [boto3](https://pypi.org/project/boto3/) - Boto3 is the Amazon Web Services (AWS) Software Development Kit (SDK) for Python, which allows Python developers to write software that makes use of services like Amazon S3 and Amazon EC2. Boto3 is maintained and published by Amazon Web Services
+* [botocore](https://pypi.org/project/botocore/) - A low-level interface to a growing number of Amazon Web Services. The botocore package is the foundation for the AWS CLI as well as boto3. Botocore is maintained and published by Amazon Web Services
+* [click](https://pypi.org/project/django-click/) - django-click is a library to easily write Django management commands using the click command line library
+* [Colorama](https://pypi.org/project/colorama/) - Makes ANSI escape character sequences (for producing colored terminal text and cursor positioning) work under MS Windows
+* [crispy-bootstrap4](https://pypi.org/project/crispy-bootstrap4/) - Bootstrap5 template pack for django-crispy-forms
+* [CSSbeautifier](https://pypi.org/project/cssbeautifier/) - Beautify, unpack or deobfuscate CSS
+* [dj-database-url](https://pypi.org/project/dj-database-url/0.5.0/) - This simple Django utility allows you to utilize the 12factor inspired DATABASE_URL environment variable to configure your Django application
+* [Django](https://pypi.org/project/Django/) - Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design.
+* [django-allauth](https://pypi.org/project/django-allauth/) - Integrated set of Django applications addressing authentication, registration, account management as well as 3rd party (social) account authentication.
+* [django-countries](https://pypi.org/project/django-countries/) - A Django application that provides country choices for use with forms, flag icons static files, and a country field for models
+* [django-crispy-forms](https://pypi.org/project/django-crispy-forms/) - Used to integrate Django DRY forms in the project
+* [django-extensions](https://pypi.org/project/django-extensions/) - Django Extensions is a collection of custom extensions for the Django Framework
+* [django-storages](https://pypi.org/project/django-storages/) - django-storages is a project to provide a variety of storage backends in a single library
+* [django-summernote](https://pypi.org/project/django-summernote/) - Summernote is a simple WYSIWYG editor which allows you to embed Summernote into Django very handy. Support admin mixins and widgets
+* [djLint](https://pypi.org/project/djlint/) - djLint is a community build project to and add consistency to html templates
+* [EditorConfig](https://pypi.org/project/EditorConfig/) - EditorConfig makes it easy to maintain the correct coding style when switching between different text editors and between different projects. The EditorConfig project maintains a file format and plugins for various text editors which allow this file format to be read and used by those editors
+* [gunicorn](https://pypi.org/project/gunicorn/) - Gunicorn ‘Green Unicorn’ is a Python WSGI HTTP Server for UNIX. It’s a pre-fork worker model ported from Ruby’s Unicorn project. The Gunicorn server is broadly compatible with various web frameworks, simply implemented, light on server resource usage, and fairly speedy
+* [html-tag-names](https://pypi.org/project/html-tag-names/) - This is a list of HTML tag names. It includes ancient (for example, nextid and basefont) and modern (for example, shadow and template) names from the HTML living standard. The repo includes scripts to regenerate the data from the specs
+* [html-void-elements](https://pypi.org/project/html-void-elements/) - Similar to "html-tag-names"
+* [jmespath](https://pypi.org/project/jmespath/) - JMESPath (pronounced “james path”) allows you to declaratively specify how to extract elements from a JSON document
+* [jsbeautifier](https://pypi.org/project/jsbeautifier/) - Beautify, unpack or deobfuscate JavaScript. Handles popular online obfuscators
+* [oauthlib](https://pypi.org/project/oauthlib/) - OAuthLib is a framework which implements the logic of OAuth1 or OAuth2 without assuming a specific HTTP request object or web framework
+* [pathspec](https://pypi.org/project/pathspec/) - pathspec is a utility library for pattern matching of file paths. So far this only includes Git’s wildmatch pattern matching which itself is derived from Rsync’s wildmatch. Git uses wildmatch for its gitignore files
+* [pillow](https://pypi.org/project/pillow/) - The Python Imaging Library adds image processing capabilities to your Python interpreter. This library provides extensive file format support, an efficient internal representation, and fairly powerful image processing capabilities
+* [psycopg2](https://pypi.org/project/psycopg2/) - Psycopg is the most popular PostgreSQL database adapter for the Python programming language.
+* [PyJWT](https://pypi.org/project/PyJWT/) - A Python implementation of RFC 7519
+* [python3-openid](https://pypi.org/project/python3-openid/) - OpenID support for modern servers and consumers
+* [regex](https://pypi.org/project/regex/) - This regex implementation is backwards-compatible with the standard ‘re’ module, but offers additional functionality like enabling other Python threads to run concurrently
+* [requests-oauhlib](https://pypi.org/project/requests-oauthlib/) - Provides first-class OAuth library support for Requests
+* [s3transfer](https://pypi.org/project/s3transfer/) - S3transfer is a Python library for managing Amazon S3 transfers. This project is maintained and published by Amazon Web Services
+* [sqlparse](https://pypi.org/project/sqlparse/) - sqlparse is a non-validating SQL parser for Python. It provides support for parsing, splitting and formatting SQL statements
+* [stripe](https://pypi.org/project/stripe/) - A Python library for Stripe’s API
+* [tqdm](https://pypi.org/project/tqdm/) - Instantly make your loops show a smart progress meter when coding in the console
+
+[Back to top](<#table-of-content>)
+
+# Testing
+
+## Code Validation
+The code on the 'Curry Tales' site has been tested through W3C Markup Validation Service, W3C CSS Validation Service, JSHint and the CodeInstutute pep8 validator. A few errors were found the W3C Markup Validation Service but could either be quite easily fixed (see bugs section) or have to do with third party code, especially Stripe, AWS and Brevo. 
+<!-- Check the websites mentioned--> 
+### Markup Validation
+While validating the HTML code, I encountered only a few errors. Since the Markup validator is not an admin user, I could only validate the pages availabe for endusers via url input - so with use of the chrome developer tools I validated every admin related page via direct input. The only errors that came up are due to third party code. Proof for all validations are in this [folder]()<!-- insert the correct folder--> . From my previous project, I know that summernote, wich I use for the "About" page, can throw "font element" errors, which might not be included since I have not updated the content on the "About" page yet.
+
+The following shows some validations, especially the ones that had an error:
+
+
+<details><summary><b>HTML Validation URL input</b></summary>
+
+Password Change (Errors):
+
+![HTML Result Password Change]()<!-- Check some image here--> 
+
+Home page (Warnings):
+
+![HTML Result Home Page]()<!-- Check some image here--> 
+
+Newsletter page (no errors or warnings):
+
+![HTML Result About Page]()<!-- Check some image here--> 
+
+</details><br/>
+
+<details><summary><b>HTML Validation direct input</b></summary>
+
+Admin pages via direct input:
+
+Product Management page (Errors):
+
+![HTML Result Checkout Page]() <!-- Check some image here--> 
+
+Checkout page (Errors):
+
+![HTML Result Checkout Page]() <!-- Check some image here--> 
+
+Delete author page (Errors):
+
+![HTML Result Delete Author]() <!-- Check some image here--> 
+
+
+</details><br/>
+
+[Back to top](<#table-of-content>)
+
+### CSS Validaton
+When validating my own code the W3C CSS Validator reports no errors. The only errors shown are via url input, which have to do with the third party newsletter provider
+
+<details><summary><b>CSS Validation Result</b></summary>
+
+base.css:
+
+![CSS Result]() <!-- Check some image here--> 
+
+profile.css:
+
+![CSS Result]() <!-- Check some image here--> 
+
+checkout.css:
+
+![CSS Result]() <!-- Check some image here--> 
+
+URL input:
+
+![CSS Result]() <!-- Check some image here--> 
+</details><br/>
+
+[Back to top](<#table-of-content>)
+
+### PEP Validation
+To validate the python files, I have used the [pep8 CodeInstitute linter](https://pep8ci.herokuapp.com/) I have tested all python files in my project without getting any errors. The documentation can be found in the [folder](readme/assets/images/validation/python). Every picture is labled with the first word as the corresponding app and the name of the python file. 45 out of the 47 files reported no error - just the webhook.py file in the checkout app, as well as in the settings the "AUTH_PASSWORD_VALIDATORS" were longer than 79 lines. Both files have been fixed.
+<!-- Check the above content--> 
+
+[Back to top](<#table-of-content>)
+
+### JavaScript Validation
+The JSHint validator results can be seen below, only 3 files are shown. the rest of the validation can be found in this [folder]() <!-- correct folder pl. --> 
+
+No errors were returned when passing through JSHint, the tests reported undefined variables and gave out a total of 8 warnings. None of these are problematic. 
+
+<details><summary><b>JSHint Validation Result</b></summary>
+
+stripe_elemets:
+
+![JSHint Validation Stripe]()<!-- Check some image here--> 
+
+Quantity input form:
+
+![JSHint Validation Quantity Input]() <!-- Check some image here--> 
+
+JS for the newsletter:
+
+![JSHint Validation Newsletter]() <!-- Check some image here--> 
+
+[Back to top](<#table-of-content>)
+
+</details><br/>
+
+
+### Manual Testing
+
+All the manual testing can be found in this [file]() <!-- add the right file pl.--> 
+
+<br>
+
+### Responsiveness Test  <!-- Check this section content--> 
+The responsive design tests were carried out manually with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) and [Multi Device Mockup Generator](https://techsini.com/multi-mockup/).
+
+| Desktop    | Display <1200px       | Display >1200px    |
+|------------|-----------------------|--------------------|
+| Render     | pass                  | pass               |
+| Images     | pass                  | pass               |
+| Links      | pass                  | pass               |
+
+| Tablet     | iPad Air              | Asus Zenbook Fold  | iPad Mini | iPad Pro |
+|------------|-----------------------|--------------------|-----------|----------|
+| Render     | pass                  | pass               | pass      | pass     |
+| Images     | pass                  | pass               | pass      | pass     |
+| Links      | pass                  | pass               | pass      | pass     |
+
+| Phone      | Galaxy S20 Ultra      | iPhone 12Pro/14 Pro Max    | Pixel 7 / 7 Pro      |
+|------------|-----------------------|----------------------------|----------------------|
+| Render     | pass                  | pass                       | pass      | pass     |
+| Images     | pass                  | pass                       | pass      | pass     |
+| Links      | pass                  | pass                       | pass      | pass     |
+
+[Back to top](<#table-of-content>)
+
+### Browser Compatibility
+* Google Chrome Version (version 130.0.6723.117)
+* Mozilla Firefox (version 132.0.1) - website works fully, but the both the fonts and some formatting is wrong <!-- check this text--> 
+* Microsoft Edge (version 130.0.2849.80)
+
+[Back to top](<#table-of-content>)
+
+### Lighthouse
+Google Lighthouse in Chrome Developer Tools was used to test the application within the areas of *Performance*, *Accessibility*, *Best Practices* and *SEO*. 
+
+The test results have been mostly positive, besides the performance score (between x and y), as well as accessibility. The latter one has especially on the desktop version (all pages) and the shopping bag and product detail page issues, since there are labels missing for most buttons. I decided that this is not an issue for now since the products are not meant for the visually impaired. In the future features, I do want to implement these as well so that the page is also accessable for the visually impaired, so that they are also able to shop for books as e.g. gifts. 
+
+I have tested every page from Curry Tales with lighthouse, every picture can be found in this [folder]() <!-- insert the right folder here--> 
+
+[Back to top](<#table-of-content>)
+
+### Peer Review
+Additional testing of the application was conducted by people outside of the software development field by friends and family. No errors and no issues with design or handling of the site were found. Also my webpage has been tested by fellow Code Institute students Marcellio, Sebastian and Jan with the same result. 
+
+[Back to top](<#table-of-content>)
+
+# Bugs
+
+## Fixed Bugs <!-- Check content in this section --> 
+
+
+### Bugs from Boutique ADO
+
+**30.10.24**
+Minus quantity button does not work. Fix: in JS code, change targeted IDs to target classes -> change "#" to "." to target classes -> did not fix the issue:
+
+**13.11.2024**
+Finally fixed the quantity_input_form JS code with the help of Oisin from tutor support by rewriting all variables
+
+**11.11.2024**
+Validation errors:
+
+* Mobile-top-header throws HTML errors: li item is child of menu item. Fix: Add an ul tag with corresponding classes (Tutor support helped)
+* Element p not allowed as child of element strong in this context. -> custom_clearable_file_input has that set up. Solution: removed "strong"
+* custom_clearable_file_input: "Error: Bad value auto !important for attribute width on element img: Expected a digit but saw a instead" -> added a div -> did not fix the error
+
+[Back to top](<#table-of-content>)
+
+## Known Bugs
+
+All known bugs are supposed to be fixed before "Future Features" are going to be implemented.
+
+* if the user changes the quantity of an item in the shopping bag to 0, 0 amount of items will be ordered, but it will still show up in the order summary and confirmation mail as "0x book"
+* If a user has saved their name and email once in the ch
+
+[Back to top](<#table-of-content>)
+
+# Deployment
+
+## Deployment To Heroku
+
+The project was deployed to [Heroku](https://www.heroku.com). Given that this is the fifth project to deploy, I will not go over the steps on creating a project in detail, since the steps have been the same as for all django projects. 
+
+<details><summary><b>Deployment</b></summary>
+
+To create a project, these are the steps:
+
+1. Create a workspace with the [Code Institute Full Template](https://github.com/Code-Institute-Org/ci-full-template)
+
+<details><summary><b>Heroku Deployment - Step 1</b></summary>
+
+![Heroku Deployment Step 1]() <!-- Check some image here--> 
+
+![Heroku Deployment Step 1]()<!-- Check some image here--> 
+
+![Heroku Deployment Step 1]() <!-- Check some image here--> 
+</details><br />
+
+2. Install Django via console commands
+
+* ```pip3 install Django~=4.2.8```
+
+3. Add the packages to the "requirements.txt" file 
+
+* ```pip3 freeze --local > requirements.txt```
+
+4. Create the project
+
+* ```django-admin startproject YOUR_PROJECT_NAME .```
+
+5. Create the first app
+
+* ```python3 manage.py startapp APP_NAME```
+
+6. Add the app to the "INSTALLED_APPS" in the settings.py file 
+
+<details><summary><b>Heroku Deployment - Step 6</b></summary>
+
+![Heroku Deployment Step 6](readme/assets/images/deployment/apps_home.PNG)
+</details><br />
+
+7. Run the server and retireve your local url
+
+8. Add the local url to the "ALLOWED_HOSTS" area in the settings.py file 
+
+<details><summary><b>Heroku Deployment - Step 8</b></summary>
+
+![Heroku Deployment Step 8](readme/assets/images/deployment/3_allowed_hosts.PNG)
+</details><br />
+
+9. Run the initial migrations
+
+* ```python3 manage.py migrate```
+
+<br>
+<br>
+Now, the project can be deployed to Heroku:
+<br>
+<br>
+
+1. Create a Database from [CI](https://dbs.ci-dbs.net/)
+
+<details><summary><b>Heroku Deployment - Step 1</b></summary>
+
+![Heroku Deployment Step 1](readme/assets/images/deployment/create_database.PNG)
+</details><br />
+
+2. Add your database information (see step 6, excluding the COLLECTSTATIC) to your env.py file and add the following code in the settings.py file:
+
+<details><summary><b>Heroku Deployment - Step 2</b></summary>
+
+![Heroku Deployment Step 2](readme/assets/images/deployment/database_settings_setup.PNG)
+</details><br />
+
+3. Prepare your project for deployment
+
+* Install *gunicorn*
+* ```pip3 install gunicorn~=20.1```
+* Install *psycopg2*
+* Install *dj_database_url*
+* ```pip3 install dj_database_url==0.5.0 psycopg2```
+* Add the packages to the "requirements.txt" file 
+* Migrate all changes
+* *If* the project already has more apps, models and fixtures, also load the fixtures via *python3 manage.py loaddata "fixture name"*
+
+<details><summary><b>Heroku Deployment - Step 3</b></summary>
+
+![Heroku Deployment Step 3]() <!-- Check some image here--> 
+
+![Heroku Deployment Step 3]() <!-- Check some image here--> 
+</details><br />
+
+* Create a "Procfile" and add "web: gunicorn 'project name':application" in it
+* Change *Debug* in the settings.py file to *False*
+* Add "'.herokuapp.com'" to the "ALLOWED_HOSTS" area in the settings.py file
+* Commit the changes to Github
+
+4. Create a new heroku app
+
+<details><summary><b>Heroku Deployment - Step 4</b></summary>
+
+![Heroku Deployment Step 4]() <!-- Check some image here--> 
+
+![Heroku Deployment Step 4]() <!-- Check some image here--> 
+</details><br />
+
+5. Connect your Github repository to your new Heroku app
+
+<details><summary><b>Heroku Deployment - Step 5</b></summary>
+
+![Heroku Deployment Step 5]() <!-- Check some image here--> 
+</details><br />
+
+6. Add your secret key, *DISABLE_COLLECTSTATIC = 1* and your newly created DATABASE_URL to the Heroku Config Vars
+
+<details><summary><b>Heroku Deployment - Step 6</b></summary>
+
+![Heroku Deployment Step 6]() <!-- Check some image here--> 
+</details><br />
+
+7. Make your first manual deploy
+
+<details><summary><b>Heroku Deployment - Step 7</b></summary>
+
+![Heroku Deployment Step 7]() <!-- Check some image here--> 
+</details><br />
+
+Now, the basics of your project have been deployed to Heroku. In my case, I continued with my project until I had stripe, AWS, all fixtures and all working models ready. 
+
+8. To set up Stripe, you will have to create a free account [here](https://dashboard.stripe.com/register). After you have created your account, retrieve your Publishable key and Secret key and add them to your env.py file, as well as to your heroku config vars. Additionally, you will have to set up all the stripe code for your project, but this was done with the [Stripe Documentation](https://docs.stripe.com/). It is important to include the following code in the checkout views.py file:
+
+<details><summary><b>Heroku Deployment - Step 8</b></summary>
+
+![Heroku Deployment Step 8]() <!-- Check some image here--> 
+</details><br />
+
+9. Create a stripe webhook for your plattform by creating a new webhook in the stripe section under *Developers* - *Event Destination* - *Add Destination* and adding your *deployed url*/checkout/wh/ in the form. After creating the webhook, you will recieve a stripe_wh_secret key.
+
+10. The next step to complete the deployment is to create an AWS account and an S3 bucket. To create an account, you have to visit the [AWS website](https://signin.aws.amazon.com/signup?request_type=register) and follow the instructions to create the free tier account.
+
+The best summary on how to do create the bucket and user group was provided by the Code Institute tutor Oisin with the following tutorials:
+
+* [Create an AWS S3 Bucket](https://docs.google.com/document/d/1bqvCFiCW_JV9sllNZrN5uUJpIiusHICTk4TIk3oUWHY/edit?tab=t.0#heading=h.jypp4mbtvx4q)
+* [Create an AWS Group and User](https://docs.google.com/document/d/1z6L8KKiTi3QU5rMbHXhA3QR9jQIG7wLqnScUDpe238E/edit?tab=t.0#heading=h.1ixuny26uvc)
+
+* After finishing the steps from the documentation above, you will recieve an AWS acces key and an AWS secret key
+
+11. Add all keys into your env.py file and the Heroku config vars:
+
+<details><summary><b>Heroku Step 11</b></summary>
+
+![Heroku Step 11]() <!-- Check some image here--> 
+
+![Heroku Step 11]() <!-- Check some image here--> 
+</details><br />
+
+12. Update your settings.py file like in the picture below:
+
+<details><summary><b>Heroku Step 12</b></summary>
+
+![Heroku Step 12]() <!-- Check some image here--> 
+</details><br />
+
+13. Upload your media files to your S3 bucket by entering them in a folder called *media*
+
+14. Make sure all of your migrations are done, your requirements.txt file is up to date and do your final manual deploy. Now your webpage is deployed and works as intended!
+
+## How To Fork The Repository On GitHub
+
+It is possible to do a independent copy of a GitHub Repository by forking the GitHub account. The copy can then be viewed and it is also possible to do changes in the copy without affecting the original repository. To fork the repository, take these steps:
+
+1. After logging in to GitHub, locate the repository. On the top right side of the page there is a 'Fork' button. Click on the button to create a copy of the original repository
+
+<details><summary><b>Github Fork</b></summary>
+
+![Fork]()<!-- Check some image here--> 
+
+* The reason why it is greyed out in the picture:
+
+![Fork](readme/assets/images/deployment/fork_issue.PNG)
+</details><br />
+
+## Cloning And Setting Up This Project
+
+To clone and set up this project you need to follow the next steps:
+
+1. When you are in the repository, find the code tab and click it
+2. To the left of the green GitPod button, press the 'code' menu. There you will find a link to the repository. Click on the clipboard icon to copy the URL
+
+<details><summary><b>Github Create Local Clone</b></summary>
+
+![Clone](readme/assets/images/deployment/clone.PNG)
+
+</details><br />
+
+3. Use an IDE and open Git Bash. Change directory to the location where you want the cloned directory to be made
+4. Type 'git clone', and then paste the URL that you copied from GitHub. Press enter and a local clone will be created
+5. To be able to get the project to work you need to install the requirements. This can be done by using the command below:
+
+* ```pip3 install -r requirements.txt``` - This command downloads and install all required dependencies that is stated in the requirements file
+
+6. Make sure that all sensitive information are placed in an env.py file which is excluded from commits via the gitignore file
+
+* ```python3 manage.py migrate``` - This will do the necessary migrations.
+* ```python3 manage.py runserver``` - If everything i setup correctly the project is now live locally.
+
+[Back to top](<#table-of-content>)
+
+</details><br />
+
+# Credits
+
+## Content
+
+* My project **Curry-Tales** has started almost as a copy of the example project *Boutique ADO* and has been edited in most areas ever since, but especially the **Category**, **Checkout** and **Shopping bag** models, as well as the JS code has been almost unaltered.
+
+* I used some help from various more YouTube tutorials and w3schools tutorials.
+
+*For the deployment I used the newly supplied google documents from Oisin (CI Tutor) for creating the AWS accound and setting up the S3 bucket
+
+* All pictrures on the webpage were gathered from multiple webpages. A list of all the references are found [here](readme/text-files)
+
+* The project still includes the [helper_txt](helper_txt) folder, which I decided to keep in the project since it shows how I did my code. In a real project, I would have added it to the gitignore file
+
+## Technical
+
+* Many different posts on [Stackoverflow](https://stackoverflow.com/) have helped me understand Django and its functionality better, as well as it helped me fix bugs while coding
+
+* The [Bootstrap](https://getbootstrap.com/) documentation helped me a lot with the styling of my page
+
+* The AI tool [perplexity](https://www.perplexity.ai/) was used a lot for debugging and helping to understand my mistakes. No code was written by AI, the tool was just used in case of bugs and missing understanding on how a feature works
+
+* The *Boutique ADO* code along project from Code Institute has been a valuable source for both starting the project as well as for setting up new apps, models, urls and views even if it created quite some issues along the way since it is pretty outdated and created validation problems
+
+## Media
+
+# Acknowledgements
+
+* I have to thank my dear partner for being so patient since there is not a lot of free time and yet she fully supports me on a daily basis
+
+* I am also thankful for my co-student [Marceillo](https://github.com/Marceillo) and [Jan](https://github.com/yanidruffy), who I worked closely together, and who helped me with questions, gave their input and in times of question.
+
+* A big thank you goes out to the Tutors who have helped me along my fourth protfolio project
+
+* I would like to thank my mentor <!-- Check some image here--> for giving me the right pointers in the first meeting and my second mentor <!-- Check some image here--> for helping me finish the project and giving me very valuable advice.
+
+
+
+
+[Back to top](<#table-of-content>)
+
 
 

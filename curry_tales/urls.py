@@ -29,5 +29,7 @@ urlpatterns = [
     path('profile/', include('profiles.urls')),
     path('about/', include('about.urls')),
     path('newsletter/', include('newsletter.urls')),
+    path('faq/', include('faq.urls')),
+
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 handler404 = 'curry_tales.views.handler404'

@@ -31,7 +31,7 @@
         <div class="col-12 col-md-6 col-lg-4">
             <div class="product-details-container mb-5 mt-md-5">
                 <p class="mb-0">{{ product.name }}</p>
-                <p class="lead mb-0 text-left font-weight-bold">${{ product.price }}</p>
+                <p class="lead mb-0 text-left font-weight-bold" id="price-display">${{ product.price }}</p>
                 {% if product.category %}
                 <p class="small mt-1 mb-0">
                     <a class="text-muted" href="{% url 'products' %}?category={{ product.category.name }}">
@@ -59,9 +59,9 @@
                         <div class="col-12">
                             <p><strong>Size:</strong></p>
                             <select class="form-control rounded-0 w-50" name="product_size" id='id_product_size'>
-                                <option value="500g">500g</option>
+                                <option value="500g" selected>500g</option>
                                 <option value="1kg">1kg</option>
-                                <option value="2kg" selected>2kg</option>
+                                <option value="2kg">2kg</option>
                                 <option value="5kg">5kg</option>
                             </select>
                         </div>
@@ -114,5 +114,19 @@
 
 {% block postloadjs %}
 {{ block.super }}
+<script>
+    const basePrice = {{ product.price }};
+    const sizeSelect = document.getElementById('id_product_size');
+    const priceDisplay = document.getElementById('price-display');
+
+    sizeSelect.addEventListener('change', function () {
+        let extra = 0;
+        if (this.value === '1kg') extra = 2;
+        else if (this.value === '2kg') extra = 4;
+        else if (this.value === '5kg') extra = 8;
+        priceDisplay.textContent = '$' + (basePrice + extra).toFixed(2);
+    });
+</script>
+
 {% include 'products/includes/quantity_input_script.html' %}
 {% endblock %}

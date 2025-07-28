@@ -1,14 +1,71 @@
 from django.shortcuts import render, redirect, reverse, HttpResponse, get_object_or_404
 from django.contrib import messages
+from decimal import Decimal
 
 from products.models import Product
 
 # Create your views here.
 
-def view_bag(request):
-    """ A view that renders the bag contents page """
+from django.shortcuts import render
+from products.models import Product
 
-    return render(request, 'bag/bag.html')
+def view_bag(request):
+    """ A view that renders the bag contents page with correct bag items and totals """
+
+    bag = request.session.get('bag', {})
+    bag_items = []
+    total = Decimal('0.00')
+    delivery = Decimal('0.00')
+    free_delivery_threshold = Decimal('50.00')
+
+    for item_id, item_data in bag.items():
+        product = Product.objects.get(pk=item_id)
+        if isinstance(item_data, int):
+            # No sizes, just quantity
+            quantity = item_data
+            subtotal = quantity * product.price
+            total += subtotal
+            bag_items.append({
+                'item_id': item_id,
+                'product': product,
+                'quantity': quantity,
+                'size': None,
+                'subtotal': subtotal,
+            })
+        else:
+            # With sizes
+            for size, quantity in item_data['items_by_size'].items():
+                subtotal = quantity * product.price
+                total += subtotal
+                bag_items.append({
+                    'item_id': item_id,
+                    'product': product,
+                    'quantity': quantity,
+                    'size': size,
+                    'subtotal': subtotal,
+                })
+
+    # Example delivery calculation
+    if total < free_delivery_threshold:
+        delivery = Decimal('5.00')
+        free_delivery_delta = free_delivery_threshold - total
+
+    else:
+        delivery = 0
+        free_delivery_delta = 0
+
+    grand_total = total + delivery
+
+    context = {
+        'bag_items': bag_items,
+        'total': total,
+        'delivery': delivery,
+        'free_delivery_delta': free_delivery_delta,
+        'grand_total': grand_total,
+    }
+
+    return render(request, 'bag/bag.html', context)
+
 
 def add_to_bag(request, item_id):
     """ Add a quantity of the specified product to the shopping bag """

@@ -420,14 +420,13 @@ While going over the acceptance criteria one last time, I saw that it is a must 
 
 <details><summary><b>Facebook Issue</b></summary>
 
-![Facebook Issue]() <!-- Check some image here-->
 
 </details><br/>
 
 
 <details><summary><b>Facebook Mockup</b></summary>
 
-![Facebook Mockup]() <!-- Check some image here-->
+![Facebook Mockup](documentation/images/fb_mockup.PNG) 
 
 </details><br/>
 

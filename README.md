@@ -956,36 +956,6 @@ The following shows some validations, especially the ones that had an error:
 
 <details><summary><b>HTML Validation URL input</b></summary>
 
-Password Change (Errors):
-
-![HTML Result Password Change]()<!-- Check some image here--> 
-
-Home page (Warnings):
-
-![HTML Result Home Page]()<!-- Check some image here--> 
-
-Newsletter page (no errors or warnings):
-
-![HTML Result About Page]()<!-- Check some image here--> 
-
-</details><br/>
-
-<details><summary><b>HTML Validation direct input</b></summary>
-
-Admin pages via direct input:
-
-Product Management page (Errors):
-
-![HTML Result Checkout Page]() <!-- Check some image here--> 
-
-Checkout page (Errors):
-
-![HTML Result Checkout Page]() <!-- Check some image here--> 
-
-Delete author page (Errors):
-
-![HTML Result Delete Author]() <!-- Check some image here--> 
-
 
 </details><br/>
 
@@ -1086,7 +1056,7 @@ Google Lighthouse in Chrome Developer Tools was used to test the application wit
 
 The test results have been mostly positive, besides the performance score (between x and y), as well as accessibility. The latter one has especially on the desktop version (all pages) and the shopping bag and product detail page issues, since there are labels missing for most buttons. I decided that this is not an issue for now since the products are not meant for the visually impaired. In the future features, I do want to implement these as well so that the page is also accessable for the visually impaired, so that they are also able to shop for books as e.g. gifts. 
 
-I have tested every page from Curry Tales with lighthouse, every picture can be found in this [folder]() <!-- insert the right folder here--> 
+I have tested every page from Curry Tales with lighthouse, every picture can be found in this [folder](documentation/lighthouse_images) <!-- insert the right folder here--> 
 
 [Back to top](<#table-of-content>)
 
@@ -1121,8 +1091,30 @@ Validation errors:
 
 All known bugs are supposed to be fixed before "Future Features" are going to be implemented.
 
-* if the user changes the quantity of an item in the shopping bag to 0, 0 amount of items will be ordered, but it will still show up in the order summary and confirmation mail as "0x book"
-* If a user has saved their name and email once in the ch
+* Dynamic Pricing Fix
+Previously, product prices did not update based on selected quantities or weights. This issue has now been resolved—prices dynamically reflect user selections in real time.
+
+
+* Terminology Update
+The label "Size" has been replaced with "Weight" across the website for improved clarity and relevance to the products.
+
+
+* New Feature: FAQ Section
+A Frequently Asked Questions (FAQ) section has been added to assist users by addressing common queries and improving overall usability.
+
+ ### Known Limitations / Pending Tasks
+
+* Incomplete Styling for FAQ Section
+The newly added FAQ section is functional but lacks proper styling due to time constraints. UI/UX improvements will be considered in future updates.
+
+
+* Database Schema Not Generated
+The project currently lacks a defined or documented database schema. This remains a pending task for subsequent development phases.
+
+### Developer Note
+
+Throughout this project, I have implemented substantial changes and addressed most of the key points highlighted in the assessment criteria. Despite time constraints due to full-time work and personal responsibilities, I made every effort to meet the outlined requirements. While a few elements remain incomplete, the current version demonstrates meaningful progress and provides a solid foundation for continued development. 
+
 
 [Back to top](<#table-of-content>)
 
@@ -1362,6 +1354,7 @@ To clone and set up this project you need to follow the next steps:
 * The AI tool [perplexity](https://www.perplexity.ai/) was used a lot for debugging and helping to understand my mistakes. No code was written by AI, the tool was just used in case of bugs and missing understanding on how a feature works
 
 * The *Boutique ADO* code along project from Code Institute has been a valuable source for both starting the project as well as for setting up new apps, models, urls and views even if it created quite some issues along the way since it is pretty outdated and created validation problems
+
 
 ## Media
 

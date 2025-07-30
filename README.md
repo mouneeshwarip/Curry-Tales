@@ -404,25 +404,12 @@ Long-term:
 
 I own a private Facebook account (inactive), that I am refusing to reactivate because I do not want to agree to the current Meta terms and conditions. In the Code Institute LMS, we were provided with a Facebook mockup for balsamiq and got the information that if we do not wish to create a real facebook account, the mock ups are enough since ficticious business pages get closed very quickly anyway. Since I do not wish for Meta to have access to my personal data, nor do I see why a facebook page has anything to do with my coding capabilities, I decided to go with the mockup.
 
-<details><summary><b>Facebook Criteria</b></summary>
-
-* from the LMS "To be sure, to be sure" page:
-
-![Facebook Criteria 1]()  <!-- Check some image here-->
 
 * From the acceptance criteria:
-
-![Facebook Criteria 2]() <!-- Check some image here-->
 
 </details><br/>
 
 While going over the acceptance criteria one last time, I saw that it is a must criteria to create the Facebook page. Since using my personal inactive Facebook account is out of the question, I decided to create a new account - which is at this time impossible for this project, since they will need to verify the account, which will take up to a day. Needless to say I did not upload my personal picture, nor did I add my actual information - so the chances that the account will not be autheticated are there as well. Therfore for this project, there will only be a mock up for the Facebook Business page.
-
-<details><summary><b>Facebook Issue</b></summary>
-
-
-</details><br/>
-
 
 <details><summary><b>Facebook Mockup</b></summary>
 
@@ -438,25 +425,16 @@ While going over the acceptance criteria one last time, I saw that it is a must 
 ## Project Management
 
 ### Github Board
-For organizing and planning my project, I have used the [Github board]()<!--  github info here-->, which has helped me a lot with planning out and fulfilling the acceptance criteria. I have thoroughly kept the user stories up to date with the coding progress. Additionally, I have used multiple .txt files to keep up with ideas, documentation, my mentor meetings and bugs to implement in this documentation. 
-
-<details><summary><b>Github Board</b></summary>
+For organizing and planning my project, I have used the , which has helped me a lot with planning out and fulfilling the acceptance criteria. I have thoroughly kept the user stories up to date with the coding progress. Additionally, I have used multiple .txt files to keep up with ideas, documentation, my mentor meetings and bugs to implement in this documentation. 
 
 <br>
-This picture does not show all user stories. Visit my Github board (link above) to see all user stories.
-<br>
-<br>
-
-![User Stories]() <!-- Check some image here-->
-
-![User Story Example]() <!-- Check some image here-->
 
 </details><br/>
 
 ## Database Schema
 
 
-The database schema was created with [BugBytes](https://www.youtube.com/watch?v=qzrE7cfc_3Q&t=478s) YouTube video and the corresponding tool [dreampuf](https://dreampuf.github.io/GraphvizOnline/). Due to certain reasons I could not completely follow my time plan, therefore I was unable to create a database schema myself, which was planned to be done with [Lucid](https://lucid.app/documents#/home?folder_id=recent). <!-- Check the above text on lucid etc... -->
+The database schema was created with [BugBytes](https://www.youtube.com/watch?v=qzrE7cfc_3Q&t=478s) YouTube video and the corresponding tool [dreampuf](https://dreampuf.github.io/GraphvizOnline/). Due to certain reasons I could not completely follow my time plan, therefore I was unable to create a database schema myself, which was planned to be done with [Lucid](https://lucid.app/documents#/home?folder_id=recent). 
 
 * **Product** - Handles all products
 * **Categories** - Handles all categories - connected to the item category
@@ -468,10 +446,6 @@ The database schema was created with [BugBytes](https://www.youtube.com/watch?v=
 * **All-Auth** - Various models included due to all-auth that handle users, email addresses and more
 
 
-<details><summary><b>Database Schema (Auto generated)</b></summary>
-<br>
-
-![Database Schema]()<!-- Check there is an image here... -->
 </details><br/>
 
 
@@ -484,87 +458,12 @@ The wireframes for the site were created in the software [Balsamiq](https://bals
 
 <details><summary><b>Wireframes: Home</b></summary>
 
-![Wireframes Home Desktop]()<!-- Check some image here-->
+![Wireframes Home Desktop](documentation/images/wireframe.png)<!-- Check some image here-->
 
 [Back to top](<#table-of-content>)
 
 </details><br/>
 
-<details><summary><b>Wireframes: Products</b></summary>
-
-![Wireframes Products Desktop]()<!-- Check some image here-->
-
-[Back to top](<#table-of-content>)
-
-</details><br/>
-
-<details><summary><b>Wireframes: Product Detail View</b></summary>
-
-![Wireframes Product Detail View Desktop]()<!-- Check some image here-->
-
-[Back to top](<#table-of-content>)
-
-</details><br/>
-
-<details><summary><b>Wireframes: Authors</b></summary>
-
-![Wireframes Authors Desktop]()<!-- Check some image here-->
-
-[Back to top](<#table-of-content>)
-
-</details><br/>
-
-<details><summary><b>Wireframes: Profile</b></summary>
-
-![Wireframes Profile]()<!-- Check some image here-->
-
-[Back to top](<#table-of-content>)
-
-</details><br/>
-
-<details><summary><b>Wireframes: About</b></summary>
-
-![Wireframes About Desktop]() <!-- Check some image here-->
-
-[Back to top](<#table-of-content>)
-)
-</details><br/>
-
-<details><summary><b>Wireframes: FAQ</b></summary>
-
-![Wireframes FAQ Desktop]() <!-- Check some image here-->
-
-[Back to top](<#table-of-content>)
-
-</details><br/>
-
-<details><summary><b>Wireframes: Contact Us</b></summary>
-
-![Wireframes Contact Us Desktop]() <!-- Check some image here-->
-
-[Back to top](<#table-of-content>)
-
-</details><br/>
-
-<details><summary><b>Wireframes: Newsletter</b></summary>
-
-![Wireframes Newsletter Desktop]() <!-- Check some image here-->
-
-[Back to top](<#table-of-content>)
-
-</details><br/>
-
-<details><summary><b>Facebook Mockup</b></summary>
-
-![Facebook Mockup]() <!-- Check some image here-->
-
-[Back to top](<#table-of-content>)
-
-</details><br/>
-
-[Back to top](<#table-of-content>)
-
-</details><br/>
 
 ## User Stories
 
@@ -631,7 +530,7 @@ The wireframes for the site were created in the software [Balsamiq](https://bals
 
 ### Epics
 
-The following describes the epics of which each user story has one. To see which user story has which epic, please visit the [Github board]().<!-- github acc details here-->
+The following describes the epics of which each user story has one. To see which user story has which epic, please visit the [Github board]
 
 * Epic 1: User Authentication and Profile Management
 * Epic 2: Product Browsing and Search
@@ -667,8 +566,7 @@ The color scheme for Curry Tales was carefully chosen to reflect the rich, vibra
 <br>
 <br>
 
-![Color Palette image]()<!-- Check some image here-->
-
+![Color Palette image](documentation/images/colors.png)
 [Back to top](<#table-of-content>)
 
 </details><br/>
@@ -682,9 +580,7 @@ The fonts used for the site are 'Lato'.
 <br>
 <br>
 
-![Google Fonts Lato]()
-
-</details><br/> <!-- above i v changed playfair display font with lato font -->
+</details><br/> 
 
 [Back to top](<#table-of-content>)
 
@@ -708,90 +604,30 @@ The following is devided into mobile and desktop views, showing how each individ
 
 * Main Navigation:
 
-![Navigation]()<!-- Check some image here-->
-
-* Dropdown foods
-
-![Dropdown Foods]()<!-- Check some image here-->
-
-* Dropdown Categories
-
-![Dropdown Categories]()<!-- Check some image here-->
+![Navigation](documentation/images/navdesktop.png)<!-- Check some image here-->
 
 * Dropdown About Us
 
-![Dropdown About Us]()<!-- Check some image here-->
-
-* Dropdown Profile
-
-![Dropdown Profile]()<!-- Check some image here-->
-
-* Dropdown Profile Admin
-
-![Dropdown Profile Admin]()<!-- Check some image here-->
-
-[Back to top](<#table-of-content>)
-
-</details><br/>
+![Dropdown About Us](documentation/images/AllProd.png)<!-- Check some image here-->
 
 
 <details><summary><b>Navigation Small</b></summary>
 
 * Small Navigation:
 
-![Navigation Collapsed]()<!-- Check some image here-->
+![Navigation Collapsed](documentation/images/Nav_small.png)<!-- Check some image here-->
 
 * Small Navigation opened
 
-![Navigation Open]()<!-- Check some image here-->
+![Navigation Open](documentation/images/Nav_small1.png)<!-- Check some image here-->
 
-* Dropdown Food Items 
+* Dropdown My_Account
 
-![Dropdown Foods]()<!-- Check some image here-->
+![Dropdown Search](documentation/images/Acc_dropdown.png)<!-- Check some image here-->
 
-* Dropdown Categories 
-
-![Dropdown Categories]() <!-- Check some image here-->
-
-* Dropdown About Us 
-
-![Dropdown About Us]()<!-- Check some image here-->
-
-* Dropdown Profile 
-
-![Dropdown Profile]()<!-- Check some image here-->
-
-* Dropdown Search 
-
-![Dropdown Search]()<!-- Check some image here-->
-
-* Dropdown Profile Admin 
-
-![Dropdown Profile Admin]()<!-- Check some image here-->
-
-[Back to top](<#table-of-content>)
 
 </details><br/>
 
-
-### Footer
-The desktop footer shows links to all social media platforms, as well as links for the contact and newsletter page. The latter ones are only in the main navigation for mobile screens available:
-
-<details><summary><b>Footer</b></summary>
-
-* Footer Dekstop
-
-![Footer Dekstop]()<!-- Check some image here-->
-
-* Footer Mobile
-
-![Footer Mobile]()<!-- Check some image here-->
-
-</details><br/>
-
-[Back to top](<#table-of-content>)
-
-</details><br/>
 
 ## General Features
 
@@ -804,7 +640,7 @@ The home page is simplistic, easy to navigate and fully responsive:
 
 * Home Dekstop
 
-![Home Dekstop]()<!-- Check some image here-->
+![Home Dekstop](documentation/images/desktop_home.png)<!-- Check some image here-->
 
 * Home Mobile
 
@@ -812,11 +648,8 @@ The home page is simplistic, easy to navigate and fully responsive:
 
 * Delivery banner that informs the user about minimum order amount before getting free shipping
 
-![Delivery Banner]()<!-- Check some image here-->
+![Delivery Banner](documentation/images/mob_home.png)<!-- Check some image here-->
 
-* Carousell that displays categories like "Bestsellers", "Our Recommendations" and more
-
-![Home Carousell]()<!-- Check some image here-->
 
 [Back to top](<#table-of-content>)
 
@@ -830,13 +663,9 @@ The About page features a welcoming picture, as well as information about the st
 
 * About Dekstop
 
-![About Dekstop]()<!-- Check some image here-->
+![About Dekstop](documentation/images/About_desktop.png)<!-- Check some image here-->
 
 * About Mobile
-
-![About Mobile]()<!-- Check some image here-->
-
-[Back to top](<#table-of-content>)
 
 </details><br/>
 
@@ -844,14 +673,6 @@ The About page features a welcoming picture, as well as information about the st
 The Contact Us page features a a form which includes *Name*, *email*, *subject* and *message* that gets send directly towards the admin panel.
 
 <details><summary><b>Contact Page</b></summary>
-
-* Contact Dekstop
-
-![Contact Dekstop]()<!-- Check some image here-->
-
-* Contact Mobile
-
-![Contact Mobile]()<!-- Check some image here-->
 
 [Back to top](<#table-of-content>)
 
@@ -865,15 +686,11 @@ The Newsletter used in this project was designed and set up with [Mailchimp](htt
 
 * Newsletter Dekstop
 
-![Newsletter Dekstop]()<!-- Check some image here-->
+![Newsletter Dekstop](documentation/images/Newsletter.png)<!-- Check some image here-->
 
 * Newsletter Mobile
 
-![Newsletter Mobile]()<!-- Check some image here-->
-
-* Newsletter Confirmation Mail
-
-![Newsletter confirmation]()<!-- Check some image here-->
+![Newsletter Mobile](documentation/images/Newsletter_small.png)<!-- Check some image here-->
 
 [Back to top](<#table-of-content>)
 
@@ -884,29 +701,6 @@ The Products page shows all available South Indian food items and snacks in the 
 
 The Products Page is divided into 4 columns, which reduce to just one column, depending on the screen size, ensuring a responsive design across all devices.
 
-<details><summary><b>Products Page</b></summary>
-
-* Products Dekstop
-
-![Products Dekstop]()<!-- Check some image here-->
-
-* Products Tablet Big
-
-![Products Tablet Big]()<!-- Check some image here-->
-
-* Products Tablet Small
-
-![Products Tablet Small]()<!-- Check some image here-->
-
-* Products Mobile
-
-![Products Mobile]()<!-- Check some image here-->
-
-* Product Search Dekstop
-
-![Product Search Dekstop]()<!-- Check some image here-->
-
-[Back to top](<#table-of-content>)
 
 </details><br/>
 
@@ -924,43 +718,6 @@ The fields which are available:
 * Description2: Additional information
 * Extra Info
 
-<details><summary><b>Product Detail View</b></summary>
-
-* Product Detail View Dekstop
-
-![Product Detail View Dekstop]()<!-- Check some image here--> 
-
-* Product Detail View Mobile
-
-![Product Detail View Mobile]() <!-- Check some image here--> 
-
-<details><summary><b>Sorting</b></summary>
-The user has the option to sort by price and name , both in ascending and descending order.
-
-
-* Dekstop Sorting high to low price
-
-![Newsletter Dekstop]() <!-- Check some image here--> 
-
-* Dekstop Sorting low to high price
-
-![Newsletter Mobile]() <!-- Check some image here--> 
-
-* Dekstop Sorting
-
-![Dekstop Sorting]() <!-- Check some image here--> 
-
-* Mobile Sorting
-
-![Mobile Sorting]() <!-- Check some image here--> 
-
-</details><br/>
-
-</details><br/>
-
-[Back to top](<#table-of-content>)
-
-</details><br/>
 
 ## E-commerce Features
 
@@ -969,95 +726,23 @@ The user has the option to sort by price and name , both in ascending and descen
 ### Shopping Bag
 The shopping bag does exactly what a shopping bag should do: You can add and remove items, as well as adjusting the quantity of each item in the bag. The bag displays the nessesary information about the product or products the user would like to purchase like name, picture and price. Depending on mobile or desktop view, the layout is a bit different, to make the process to the checkout page as easy as possible. The shopping bag also informs the user about delivery costs or if the minimum for free delivery has been reached.
 
-<details><summary><b>Shopping Bag</b></summary>
-
-* Shopping Bag Dekstop: Empty
-
-![Shopping Bag Dekstop]()<!-- Check some image here--> 
-
-* Shopping Bag Dekstop: No delivery cost
-
-![Shopping Bag Dekstop]() <!-- Check some image here--> 
-
-* Shopping Bag Dekstop: Delivery cost
-
-![Shopping Bag Dekstop]() <!-- Check some image here--> 
-
-* Shopping Bag Mobile: Empty
-
-![Shopping Bag Mobile]() <!-- Check some image here--> 
-
-* Shopping Bag Mobile: No delivery cost
-
-![Shopping Bag Mobile]() <!-- Check some image here--> 
-
-* Shopping Bag Mobile: Delivery cost
-
-![Shopping Bag Mobile]() <!-- Check some image here--> 
-
-[Back to top](<#table-of-content>)
 
 </details><br/>
 
 ### Checkout
 In the checkout view, the user has to provide their name, email, shipping details and credit card details. If the user already has a profile, they can save the information to their profile or if they have already filled out all infos, either through an earlier purchase or by filling out the profile form manually, the checkout form will be pre populated (excluding the payment information).
 
-<details><summary><b>Checkout</b></summary>
-
-* Checkout Dekstop
-
-![Checkout Dekstop]() <!-- Check some image here--> 
-
-* Checkout Mobile
-
-![Checkout Mobile]() <!-- Check some image here--> 
-
-[Back to top](<#table-of-content>)
-
-</details><br/>
 
 ### Checkout Success
 The checkout success page provides the user with their order details, including an order summary, order number and the info that a confirmation mail will be send to the by the user provided email address.
 
-<details><summary><b>Checkout Success</b></summary>
-
-* Checkout Success Dekstop
-
-![Checkout Success Dekstop]() <!-- Check some image here--> 
-
-* Checkout Success Mobile
-
-![Checkout Success Mobile]() <!-- Check some image here--> 
-
-[Back to top](<#table-of-content>)
-
-</details><br/>
 
 ### Stripe
 Stripe is working as intended. All payments are going through and no errors are reported.
 
-<details><summary><b>Logout</b></summary>
-
-* Stripe Dashboard
-
-![Stripe Dashboard]()<!-- Check some image here--> 
-
-[Back to top](<#table-of-content>)
-
-</details><br/>
 
 ### Mailchimp
 I used Mailchimp to set up my newsletter, where all the email addresses will be collected. Due to privacy reasons, I cannot show all collected email addresses.
-
-<details><summary><b>Mailchimp</b></summary>
-
-* Stripe Dashboard
-
-![Mailchimp Collecting Emails]() <!-- Check some image here--> 
-
-[Back to top](<#table-of-content>)
-
-</details><br/>
 
 </details><br/>
 
@@ -1068,101 +753,22 @@ I used Mailchimp to set up my newsletter, where all the email addresses will be 
 ### Register
 The sign up page is a modified all auth template that fullfills the basic "sign up" features like email and password input and validation and a user name. Also it gives the user twice the option to change to the "sign in" page.
 
-<details><summary><b>Register</b></summary>
-
-* Sign up Desktop
-
-![Sign up Dekstop]()<!-- Check some image here--> 
-
-* Sign up Mobile
-
-![Sign up Mobile]() <!-- Check some image here--> 
-
-[Back to top](<#table-of-content>)
-
-</details><br/>
 
 ### Log In
 The Log in page is a modified all auth template that fullfills the basic "sign in" features. The user has to provide an email or username as well as their password. Also it gives the user the option to change to the "sign up" page or to reset their password.
 
-<details><summary><b>Sign In</b></summary>
-
-* Sign In Desktop
-
-![Sign In Dekstop]()<!-- Check some image here--> 
-
-* Sign In Mobile
-
-![Sign In Mobile]() <!-- Check some image here--> 
-
-[Back to top](<#table-of-content>)
-
-</details><br/>
-
 ### Logout
 The Logout page is a modified all auth template that fullfills the basic "logout" features - it logs the user out.
-
-<details><summary><b>Logout</b></summary>
-
-* Logout Dekstop
-
-![Logout Dekstop]() <!-- Check some image here--> 
-
-* Logout Mobile
-
-![Logout Mobile]() <!-- Check some image here--> 
-
-[Back to top](<#table-of-content>)
-
-</details><br/>
 
 
 ### Reset Password
 The Reset Password page is a modified all auth template that fullfills the basic "Reset Password" features. A user must provide their email and will get an email with a link to reset their password
-
-<details><summary><b>Reset Password</b></summary>
-
-* Reset Password Dekstop
-
-![Logout Dekstop]()<!-- Check some image here--> 
-
-* Reset Password Mobile
-
-![Logout Mobile]()<!-- Check some image here--> 
-
-[Back to top](<#table-of-content>)
 
 </details><br/>
 
 
 ### Profile
 The profile page consists of two parts: The users profile info, including name, email and shipping address and as the second part the order history. If a user clicks on one of the order history items, they will be redirected to the corresponding checkout success page.
-
-<details><summary><b>Profile</b></summary>
-
-* Profile Dekstop
-
-![Profile Dekstop]()<!-- Check some image here--> 
-
-* Profile Mobile
-
-![Profile Mobile]() <!-- Check some image here--> 
-
-* Change Password 
-
-![Change Password]() <!-- Check some image here--> 
-
-</details><br/>
-
-[Back to top](<#table-of-content>)
-
-</details><br/>
-
-</details><br/>
-
-## Confirmation Features
-
-<details><summary><b>Open</b></summary>
 
 
 ### Pop Up Messages
@@ -1177,81 +783,24 @@ There are a variety of different Pop Up messages - depending on what the user (o
 
 Site note: the admin success messages look different than for the users: users only get success confirmation for interacting with the store, so they will be shown a summary of their shopping bag, while the admin does not get the preview (reason: the admin gets success messages more frequently and usually does not shop in their own store).
 
-Below you can see some examples, more are in this [folder](readme/assets/images/features/msg/). <!-- Check if this folder is right--> 
-
-<details><summary><b>Messages</b></summary>
-
-* Success Message without shopping bag
-
-![Success Message]()<!-- Check some image here--> 
-
-* Success Message: Shopping bag with delivery cost
-
-![Success Message]() <!-- Check some image here--> 
-
-* Success Message: Shopping bag without delivery cost
-
-![Success Message]() <!-- Check some image here--> 
-
-* Info Message: Order history
-
-![Info Message]() <!-- Check some image here--> 
-
-* Warning Message: Deleting a product
-
-![Warning Message]() <!-- Check some image here--> 
-
-* Error Message: Wrong path
-
-![Warning Message]()<!-- Check some image here--> 
-
-* Newsletter Error / Success Message (There is a visual bug in the desktop version, more in the "Bugs" section)
-
-![Warning Message]()<!-- Check some image here--> 
-
-![Warning Message]()<!-- Check some image here--> 
-
-[Back to top](<#table-of-content>)
 
 </details><br/>
 
 ### Confirmation Emails
 When a user registers, they have to confirm their email address with a link they will be provided with in an email. Also if a user places an order, they will get an email confirmation with the details of the order.
 
-<details><summary><b>Confirmation Emails</b></summary>
-
-* Confirm email address
-
-![Confirm Email Address]()<!-- Check some image here--> 
-
-* Order summary email
-
-![Order Summary Email]()<!-- Check some image here--> 
-
-</details><br/>
-
-[Back to top](<#table-of-content>)
 
 </details><br/>
 
 ## Admin Features
-
-<details><summary><b>Open</b></summary>
 
 ### Product Management
 When a superuser is logged in, they will get another item in the account dropdown labled "Product Management". On this page, they have the option to navigate to the admin panel without having to modify the url and to add a product, category, author or a FAQ item.
 
 <details><summary><b>Product Management</b></summary>
 
-* Desktop Product Management Panel
 
-![Desktop Product Management Panel]()<!-- Check some image here--> 
-
-* Mobile Product Management Panel
-
-![Mobile Product Management Panel]() <!-- Check some image here--> 
-
-[Back to top](<#table-of-content>)
+![Desktop Category Panel](documentation/images/admin.png)<!-- Check some image here--> 
 
 </details><br/>
 
@@ -1262,7 +811,7 @@ This is the front end page where an admin can add a product.
 
 * Add Product Full Form
 
-![Add Product Full Form]()<!-- Check some image here--> 
+![Add Product Full Form](documentation/images/Add_product_admin.png)<!-- Check some image here--> 
 
 [Back to top](<#table-of-content>)
 
@@ -1271,34 +820,11 @@ This is the front end page where an admin can add a product.
 ### Edit Product
 This is the front end page where an admin can edit a product. 
 
-<details><summary><b>Edit Product</b></summary>
 
-* Edit Product Form
-
-![Edit Product Form]() <!-- Check some image here--> 
-
-* Edit Product Button
-
-![Edit Product]() <!-- Check some image here--> 
-
-[Back to top](<#table-of-content>)
-
-</details><br/>
 
 ### Delete Product
 This is the front end page where an admin can delete a product.
 
-<details><summary><b>Delete Product</b></summary>
-
-* Desktop Delete Product Confirmation Page
-
-![Desktop Delete Product Confirmation Page]() <!-- Check some image here--> 
-
-* Mobile Delete Product Confirmation Page
-
-![Mobile Delete Product Confirmation Page]() <!-- Check some image here--> 
-
-[Back to top](<#table-of-content>)
 
 </details><br/>
 
@@ -1309,9 +835,9 @@ This is the front end page where an admin can add a category. This form is shown
 
 <details><summary><b>Add Category</b></summary>
 
-* Mobile Add Category
+* Desktop Add Category
 
-![Mobile Add Category]() <!-- Check some image here--> 
+![Desktop Add Category](documentation/images/admin.png) <!-- Check some image here--> 
 
 [Back to top](<#table-of-content>)
 
@@ -1321,18 +847,6 @@ This is the front end page where an admin can add a category. This form is shown
 
 ### Admin Panel
 On the admin panel, an admin can access all profiles, email addresses, order, products and every other model. Everything has full CRUD functionality, so all features that do not have a corresponding front end page can be modified here.
-
-<details><summary><b>Admin Panel</b></summary>
-
-* Desktop Admin Panel
-
-![Desktop Admin Panel]() <!-- Check some image here--> 
-
-</details><br/>
-
-[Back to top](<#table-of-content>)
-
-</details><br/>
 
 </details><br/>
 
@@ -1366,8 +880,6 @@ On the admin panel, an admin can access all profiles, email addresses, order, pr
 * [HTML5](https://en.wikipedia.org/wiki/HTML) - Provides the content and structure for the website.
 * [CSS3](https://en.wikipedia.org/wiki/CSS) - Provides the styling for the website.
 * [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - Provides interactive elements of the website
-
-<!-- Check some image here--> 
 
 ## Frameworks & Software <!-- Check this section--> 
 

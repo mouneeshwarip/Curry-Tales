@@ -896,7 +896,7 @@ On the admin panel, an admin can access all profiles, email addresses, order, pr
 ## Frameworks & Software <!-- Check this section--> 
 
 * [Bootstrap](https://getbootstrap.com/) - A CSS framework that helps building solid, responsive, mobile-first sites
-* [Django](https://www.djangoproject.com/) - A model-view-template framework used to create the Books and Giggles site
+* [Django](https://www.djangoproject.com/) - A model-view-template framework used to create the Curry Tales site
 * [Balsamiq](https://balsamiq.com/) - Used to create the wireframe
 * [Github](https://github.com/) - Used to host and edit the website
 * [GitBash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) - Terminal in [Gitpod](https://www.gitpod.io) used to push changes to the GitHub repository
@@ -1047,7 +1047,7 @@ The responsive design tests were carried out manually with [Google Chrome DevToo
 ### Lighthouse
 Google Lighthouse in Chrome Developer Tools was used to test the application within the areas of *Performance*, *Accessibility*, *Best Practices* and *SEO*. 
 
-The test results have been mostly positive, besides the performance score (between x and y), as well as accessibility. The latter one has especially on the desktop version (all pages) and the shopping bag and product detail page issues, since there are labels missing for most buttons. I decided that this is not an issue for now since the products are not meant for the visually impaired. In the future features, I do want to implement these as well so that the page is also accessable for the visually impaired, so that they are also able to shop for books as e.g. gifts. 
+The test results have been mostly positive, besides the performance score (between x and y), as well as accessibility. The latter one has especially on the desktop version (all pages) and the shopping bag and product detail page issues, since there are labels missing for most buttons. I decided that this is not an issue for now since the products are not meant for the visually impaired. In the future features, I do want to implement these as well so that the page is also accessable for the visually impaired, so that they are also able to shop for grocery products like sweets as gifts. 
 
 I have tested every page from Curry Tales with lighthouse, every picture can be found in this [folder](documentation/lighthouse_images) <!-- insert the right folder here--> 
 

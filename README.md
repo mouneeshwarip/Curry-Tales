@@ -658,9 +658,6 @@ The home page is simplistic, easy to navigate and fully responsive:
 
 ![Home Dekstop](documentation/images/desktop_home.png)<!-- Check some image here-->
 
-* Home Mobile
-
-![Home Mobile]()<!-- Check some image here-->
 
 * Delivery banner that informs the user about minimum order amount before getting free shipping
 
@@ -688,7 +685,6 @@ The About page features a welcoming picture, as well as information about the st
 ### Contact Page
 The Contact Us page features a a form which includes *Name*, *email*, *subject* and *message* that gets send directly towards the admin panel.
 
-<details><summary><b>Contact Page</b></summary>
 
 [Back to top](<#table-of-content>)
 
@@ -986,19 +982,6 @@ When validating my own code the W3C CSS Validator reports no errors. The only er
 
 
 ![CSS Result](documentation/images/Css_Validator.png) <!-- Check some image here--> 
-
-profile.css:
-
-![CSS Result]() <!-- Check some image here--> 
-
-checkout.css:
-
-![CSS Result]() <!-- Check some image here--> 
-
-URL input:
-
-![CSS Result]() <!-- Check some image here--> 
-</details><br/>
 
 [Back to top](<#table-of-content>)
 
@@ -1372,13 +1355,11 @@ To clone and set up this project you need to follow the next steps:
 
 * I have to thank my dear partner for being so patient since there is not a lot of free time and yet she fully supports me on a daily basis
 
-* I am also thankful for my co-student [Marceillo](https://github.com/Marceillo) and [Jan](https://github.com/yanidruffy), who I worked closely together, and who helped me with questions, gave their input and in times of question.
+* I am also thankful for my co-student Sebastian and Jan, who I worked closely together, and who helped me with questions, gave their input and in times of question.
 
 * A big thank you goes out to the Tutors who have helped me along my fourth protfolio project
 
-* I would like to thank my mentor <!-- Check some image here--> for giving me the right pointers in the first meeting and my second mentor <!-- Check some image here--> for helping me finish the project and giving me very valuable advice.
-
-
+* I would like to thank my mentor for giving me the right pointers in the first meeting and for helping me finish the project and giving me very valuable advice.
 
 
 [Back to top](<#table-of-content>)

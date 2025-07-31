@@ -965,12 +965,14 @@ The libraries used in this project are located in the requirements.txt file and 
 The code on the 'Curry Tales' site has been tested through W3C Markup Validation Service, W3C CSS Validation Service, JSHint and the CodeInstutute pep8 validator. A few errors were found the W3C Markup Validation Service but could either be quite easily fixed (see bugs section) or have to do with third party code, especially Stripe, AWS and Brevo. 
 <!-- Check the websites mentioned--> 
 ### Markup Validation
-While validating the HTML code, I encountered only a few errors. Since the Markup validator is not an admin user, I could only validate the pages availabe for endusers via url input - so with use of the chrome developer tools I validated every admin related page via direct input. The only errors that came up are due to third party code. Proof for all validations are in this [folder]()<!-- insert the correct folder--> . From my previous project, I know that summernote, wich I use for the "About" page, can throw "font element" errors, which might not be included since I have not updated the content on the "About" page yet.
+While validating the HTML code, I encountered only a few errors. Since the Markup validator is not an admin user, I could only validate the pages availabe for endusers via url input. The only errors that came up are due to third party code. 
 
 The following shows some validations, especially the ones that had an error:
 
 
 <details><summary><b>HTML Validation URL input</b></summary>
+
+![HTML Result](documentation/images/html_Val.png) <!-- Check some image here--> 
 
 
 </details><br/>
@@ -982,9 +984,8 @@ When validating my own code the W3C CSS Validator reports no errors. The only er
 
 <details><summary><b>CSS Validation Result</b></summary>
 
-base.css:
 
-![CSS Result]() <!-- Check some image here--> 
+![CSS Result](documentation/images/Css_Validator.png) <!-- Check some image here--> 
 
 profile.css:
 

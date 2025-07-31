@@ -5,7 +5,24 @@ Curry Tales is an e-commerce website offering a curated selection of South India
 [Access live website here](https://curry-tales-24f92d02dabe.herokuapp.com/)
 
 
-![Curry Tales responsive design](documentation/images/)
+### Responsive Testing
+I attempted to use the Am I Responsive? tool to display how the site appears across multiple devices. However, due to deployment and Heroku-specific constraints, the site could not be loaded through the tool.
+
+As an alternative, I manually captured screenshots of the site in different viewports to demonstrate its responsiveness:
+
+* Desktop View
+
+
+![Curry Tales responsive design](documentation/images/des.png)
+
+* Tablet View
+
+![Curry Tales responsive design](documentation/images/tablet.png)
+
+* Mobile View
+
+![Curry Tales responsive design](documentation/images/mobile_v.png)
+
 <br>
 
 

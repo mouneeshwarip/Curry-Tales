@@ -16,7 +16,7 @@ import dj_database_url
 from pathlib import Path
 
 if os.path.exists("env.py"):
-    import env 
+    import env
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -26,17 +26,17 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY =  os.environ.get('SECRET_KEY')
+SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEVELOPMENT' in os.environ
-#DEBUG = True
+# DEBUG = True
 
 CSRF_TRUSTED_ORIGINS = [
     'https://8000-mouneeshwari-currytales-tx7q1wfc73h.ws.codeinstitute-ide.net',
 ]
 
-ALLOWED_HOSTS = ['curry-tales-24f92d02dabe.herokuapp.com','8000-mouneeshwari-currytales-tx7q1wfc73h.ws.codeinstitute-ide.net','localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['curry-tales-24f92d02dabe.herokuapp.com', '8000-mouneeshwari-currytales-tx7q1wfc73h.ws.codeinstitute-ide.net', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -49,7 +49,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.sites',
-    #'django.contrib.sitemaps',
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
@@ -61,7 +60,6 @@ INSTALLED_APPS = [
     'about',
     'newsletter',
     'faq',
-    
 
     # Other
     'crispy_forms',
@@ -71,7 +69,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware', 
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -89,7 +87,7 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [  
+        'DIRS': [
             os.path.join(BASE_DIR, 'templates'),
             os.path.join(BASE_DIR, 'templates', 'allauth'),
             ],

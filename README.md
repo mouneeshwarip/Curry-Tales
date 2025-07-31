@@ -1003,29 +1003,22 @@ URL input:
 [Back to top](<#table-of-content>)
 
 ### PEP Validation
-To validate the python files, I have used the [pep8 CodeInstitute linter](https://pep8ci.herokuapp.com/) I have tested all python files in my project without getting any errors. The documentation can be found in the [folder](readme/assets/images/validation/python). Every picture is labled with the first word as the corresponding app and the name of the python file. 45 out of the 47 files reported no error - just the webhook.py file in the checkout app, as well as in the settings the "AUTH_PASSWORD_VALIDATORS" were longer than 79 lines. Both files have been fixed.
+To validate the python files, I have used the [pep8 CodeInstitute linter](https://pep8ci.herokuapp.com/) I have tested all python files in my project without getting any errors. The documentation can be found in the [folder](documentation/pylint_test/). Every picture is labled with the first word as the corresponding app and the name of the python file. 45 out of the 47 files reported no error - just the webhook.py file in the checkout app, as well as in the settings the "AUTH_PASSWORD_VALIDATORS" were longer than 79 lines. Both files have been fixed.
 <!-- Check the above content--> 
 
 [Back to top](<#table-of-content>)
 
 ### JavaScript Validation
-The JSHint validator results can be seen below, only 3 files are shown. the rest of the validation can be found in this [folder]() <!-- correct folder pl. --> 
+The JSHint validator results can be seen below, only 3 files are shown. the rest of the validation can be found in this [folder](documentation/images/JS_News.png) <!-- correct folder pl. --> 
 
 No errors were returned when passing through JSHint, the tests reported undefined variables and gave out a total of 8 warnings. None of these are problematic. 
 
 <details><summary><b>JSHint Validation Result</b></summary>
-
-stripe_elemets:
-
-![JSHint Validation Stripe]()<!-- Check some image here--> 
-
-Quantity input form:
-
-![JSHint Validation Quantity Input]() <!-- Check some image here--> 
+ 
 
 JS for the newsletter:
 
-![JSHint Validation Newsletter]() <!-- Check some image here--> 
+![JSHint Validation Newsletter](documentation/images/JS_News.png) <!-- Check some image here--> 
 
 [Back to top](<#table-of-content>)
 

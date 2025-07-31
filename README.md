@@ -593,7 +593,6 @@ The fonts used for the site are 'Lato'.
 
 'Lato' is used on the whole webpage. Choosing this font family was because I thought it would fit the theme.
 
-<details><summary><b>Lato</b></summary>
 <br>
 <br>
 
@@ -1034,7 +1033,7 @@ JS for the newsletter:
 
 ### Manual Testing
 
-All the manual testing can be found in this [file]() <!-- add the right file pl.--> 
+All the manual testing can be found in this [file](ManualTesting.md) <!-- add the right file pl.--> 
 
 <br>
 

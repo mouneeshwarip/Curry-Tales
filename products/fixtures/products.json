@@ -59,13 +59,13 @@
     "model": "products.product",
     "fields": {
       "sku": "rb006",
-      "name": "Taj Mahal Black Tea",
+      "name": "Tea",
       "description": "A blend of fine black tea leaves for a rich and flavorful brew.",
       "price": 3.99,
       "category": 10,
       "rating": 4.4,
-      "image_url": "/media/Taj Mahal Black Tea.jpg",
-      "image": "Taj Mahal Black Tea.jpg"
+      "image_url": "/media/Tea.jpg", 
+      "image": "Tea.jpg"
     }
   },
   {

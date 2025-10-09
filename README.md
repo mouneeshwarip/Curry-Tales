@@ -1341,7 +1341,21 @@ To clone and set up this project you need to follow the next steps:
 * The *Boutique ADO* code along project from Code Institute has been a valuable source for both starting the project as well as for setting up new apps, models, urls and views even if it created quite some issues along the way since it is pretty outdated and created validation problems
 
 
-## Media
+# Improvements & Bug Fixes
+
+This project is fully functional and includes all core e-commerce capabilities:
+
+* Product Listing: Users can browse and view available products.
+
+* Shopping Cart: Users can add, remove, and update product quantities in their cart.
+
+* Checkout System: The checkout process is fully functional, allowing users to complete purchases successfully. All payments and order details are correctly processed and stored in the backend.
+
+[JSHint Validation Newsletter](documentation/images/checkout_success.png)
+
+* FAQ Section: Custom FAQ model implemented, allowing users to view frequently asked questions.
+
+* Responsive Design: The site is responsive and works across desktop, tablet, and mobile devices.
 
 # Acknowledgements
 

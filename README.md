@@ -1351,11 +1351,21 @@ This project is fully functional and includes all core e-commerce capabilities:
 
 * Checkout System: The checkout process is fully functional, allowing users to complete purchases successfully. All payments and order details are correctly processed and stored in the backend.
 
-[JSHint Validation Newsletter](documentation/images/checkout_success.png)
+![Curry Tales Checkout Success Page](documentation/images/checkout_success.png)
 
 * FAQ Section: Custom FAQ model implemented, allowing users to view frequently asked questions.
 
 * Responsive Design: The site is responsive and works across desktop, tablet, and mobile devices.
+
+* Fixed database errors
+
+* Fixed server (500) and data errors with help from tutor Tom
+
+![Data Error Page](documentation/images/Dataerror.png)
+
+![Server Error Page](documentation/images/Server_error.png)
+
+* Corrected API key configuration
 
 # Acknowledgements
 

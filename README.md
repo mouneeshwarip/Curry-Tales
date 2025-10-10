@@ -69,7 +69,7 @@ This fictional website has been created as part of Portfolio Project #5 (Full-St
     * [Bugs](<#bugs>)
 * [Deployment](<#deployment>)
 * [Credits](<#credits>)
-* Improvements & Bug Fixes
+* [Improvements & Bug Fixes -from previous assessment result ](<#Improvements & Bug Fixes>)
 * [Acknowledgements](<#acknowledgements>)
 
 <hr>

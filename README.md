@@ -6,9 +6,11 @@ Curry Tales is an e-commerce website offering a curated selection of South India
 
 
 ### Responsive Testing
-I attempted to use the Am I Responsive? tool to display how the site appears across multiple devices. However, due to deployment and Heroku-specific constraints, the site could not be loaded through the tool.
 
-As an alternative, I manually captured screenshots of the site in different viewports to demonstrate its responsiveness:
+The site is now fully compatible with the Am I Responsive? tool. Previously, the tool could not load the deployed site, so a manual screenshot approach was used, which has been retained here additionally for reference.
+
+![Curry Tales responsive design](documentation/images/responsive_img.png)
+
 
 * Desktop View
 

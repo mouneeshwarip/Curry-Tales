@@ -1372,6 +1372,10 @@ This project is fully functional and includes all core e-commerce capabilities:
 
 * Corrected API key configuration
 
+* The backend error mentioned by the assessor, where completed checkouts were recorded with a total value of 0.00, has been resolved — orders now display the correct totals after successful payment.
+
+![backenderror_correcttotals Page](documentation/images/backenderror_fix.png)
+
 # Acknowledgements
 
 * I have to thank my dear partner for being so patient since there is not a lot of free time and yet she fully supports me on a daily basis

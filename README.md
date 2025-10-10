@@ -30,7 +30,7 @@ The site is now fully compatible with the Am I Responsive? tool. Previously, the
 
 This fictional website has been created as part of Portfolio Project #5 (Full-Stack Toolkit) for the Diploma in Full Stack Software Development at the [Code Institute](https://www.codeinstitute.net). While the website offers an authentic shopping experience, no real transactions are processed, and no payment information is stored. It is intended for educational purposes to demonstrate full-stack development skills.
 
-# Table of Content
+# Table of Contents
 
 * [**Project**](<#project>)
     * [Objective](<#objective>)
@@ -51,6 +51,7 @@ This fictional website has been created as part of Portfolio Project #5 (Full-St
 
 * [**Existing Features**](<#existing-features>)
     * [Navigational Features](<#navigation>)
+    * [General Features](<#General-Features>) 
     * [E-commerce Features](<#home>)
     * [Confirmation Features](<#about>)
     * [Admin Features](<#faq>)
@@ -69,7 +70,7 @@ This fictional website has been created as part of Portfolio Project #5 (Full-St
     * [Bugs](<#bugs>)
 * [Deployment](<#deployment>)
 * [Credits](<#credits>)
-* [Improvements & Bug Fixes -from previous assessment result](<#Improvements & Bug Fixes>)
+* [Improvements & Bug Fixes -from previous assessment result](<#Improvements-&-Bug-Fixes>)
 * [Acknowledgements](<#acknowledgements>)
 
 <hr>

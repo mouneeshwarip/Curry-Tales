@@ -70,7 +70,7 @@ This fictional website has been created as part of Portfolio Project #5 (Full-St
     * [Bugs](<#bugs>)
 * [Deployment](<#deployment>)
 * [Credits](<#credits>)
-* [Improvements & Bug Fixes](<#credits>)
+* [Improvements & Bug Fixes](<#improvements-and-bug-fixes>)
 * [Acknowledgements](<#acknowledgements>)
 
 <hr>
@@ -1348,7 +1348,7 @@ To clone and set up this project you need to follow the next steps:
 * The *Boutique ADO* code along project from Code Institute has been a valuable source for both starting the project as well as for setting up new apps, models, urls and views even if it created quite some issues along the way since it is pretty outdated and created validation problems
 
 
-# Improvements & Bug Fixes
+# Improvements and Bug Fixes
 
 This project is fully functional and includes all core e-commerce capabilities:
 

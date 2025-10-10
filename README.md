@@ -1091,6 +1091,9 @@ All known bugs are supposed to be fixed before "Future Features" are going to be
 * Dynamic Pricing Fix
 Previously, product prices did not update based on selected quantities or weights. This issue has now been resolved—prices dynamically reflect user selections in real time.
 
+* The bag total showed $5 when opening the bag (being clicked upon the empty bag on the home screen), even if no products were added. This was because the delivery charge of $5 was applied whenever the total was below the free delivery threshold, regardless of whether the bag was empty.
+
+![Empty Value bag error ](documentation/images/bagview.png) 
 
 * Terminology Update
 The label "Size" has been replaced with "Weight" across the website for improved clarity and relevance to the products.
@@ -1382,7 +1385,7 @@ This project is fully functional and includes all core e-commerce capabilities:
 
 # Acknowledgements
 
-* I have to thank my dear partner for being so patient since there is not a lot of free time and yet she fully supports me on a daily basis
+* I have to thank my dear partner Bala for being so patient since there is not a lot of free time and yet she fully supports me on a daily basis
 
 * I am also thankful for my co-student Sebastian and Jan, who I worked closely together, and who helped me with questions, gave their input and in times of question.
 
@@ -1390,6 +1393,7 @@ This project is fully functional and includes all core e-commerce capabilities:
 
 * I would like to thank my mentor for giving me the right pointers in the first meeting and for helping me finish the project and giving me very valuable advice.
 
+* I’d also like to thank my friends Supriya, Manjunath, and CI tutor Tom for staying with me until the end, helping with testing, debugging, and providing their valuable insights throughout the project during the resubmission.
 
 [Back to top](<#table-of-content>)
 

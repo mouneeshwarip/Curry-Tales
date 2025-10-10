@@ -1095,6 +1095,9 @@ The label "Size" has been replaced with "Weight" across the website for improved
 * New Feature: FAQ Section
 A Frequently Asked Questions (FAQ) section has been added to assist users by addressing common queries and improving overall usability.
 
+![Faq](documentation/images/FAQ.png) <!-- Check some image here--> 
+
+
  ### Known Limitations / Pending Tasks
 
 * Incomplete Styling for FAQ Section
@@ -1354,6 +1357,8 @@ This project is fully functional and includes all core e-commerce capabilities:
 ![Curry Tales Checkout Success Page](documentation/images/checkout_success.png)
 
 * FAQ Section: Custom FAQ model implemented, allowing users to view frequently asked questions.
+
+![Faq](documentation/images/FAQ.png) <!-- Check some image here--> 
 
 * Responsive Design: The site is responsive and works across desktop, tablet, and mobile devices.
 

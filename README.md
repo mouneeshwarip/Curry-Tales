@@ -49,7 +49,6 @@ This fictional website has been created as part of Portfolio Project #5 (Full-St
 
 * [**Existing Features**](<#existing-features>)
     * [Navigational Features](<#navigation>)
-    * [General Features](<#footer>)
     * [E-commerce Features](<#home>)
     * [Confirmation Features](<#about>)
     * [Admin Features](<#faq>)
@@ -65,11 +64,10 @@ This fictional website has been created as part of Portfolio Project #5 (Full-St
 * [**Testing**](<#testing>)
     * [Testing User Stories](<#testing-user-stories>)
     * [Code Validation](<#code-validation>)
-    * [Additional Testing](<#additional-testing>)
     * [Bugs](<#bugs>)
 * [Deployment](<#deployment>)
 * [Credits](<#credits>)
-* [Improvements & Bug Fixes -from previous assessment result ](<#Improvements & Bug Fixes>)
+* [Improvements & Bug Fixes -from previous assessment result](<#Improvements & Bug Fixes>)
 * [Acknowledgements](<#acknowledgements>)
 
 <hr>

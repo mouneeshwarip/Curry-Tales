@@ -987,6 +987,8 @@ When validating my own code the W3C CSS Validator reports no errors. The only er
 
 [Back to top](<#table-of-content>)
 
+</details><br/>
+
 ### PEP Validation
 To validate the python files, I have used the [pep8 CodeInstitute linter](https://pep8ci.herokuapp.com/) I have tested all python files in my project without getting any errors. The documentation can be found in the [folder](documentation/pylint_test/). Every picture is labled with the first word as the corresponding app and the name of the python file. 45 out of the 47 files reported no error - just the webhook.py file in the checkout app, as well as in the settings the "AUTH_PASSWORD_VALIDATORS" were longer than 79 lines. Both files have been fixed.
 <!-- Check the above content--> 
